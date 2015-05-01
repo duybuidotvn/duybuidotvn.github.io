@@ -3,17 +3,17 @@
   side: left
 
 - title: About me
-  url: "/about-me/"
+  url: "/about/"
   side: left
   dropdown:
   - title: "Curriculum Vitae"
-    url: "/about-me/curriculum-vitae/"
+    url: "/about/curriculum-vitae/"
   - title: "Research"
-    url: "/about-me/research/"
+    url: "/about/research/"
   - title: "Teaching"
-    url: "/about-me/teaching/"
+    url: "/about/teaching/"
   - title: "Other"
-    url: "/about-me/other/"
+    url: "/about/other/"
 
 - title: "Templates"
   url: "/design/"
