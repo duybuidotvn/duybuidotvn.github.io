@@ -1,3 +1,8 @@
+- name: GitHub
+  url: http://github.com/duybuivn
+  class: icon-github
+  title: Duy T. Bui code
+
 - name: Facebook
   url: http://www.facebook.com/coffeebui
   class: icon-facebook
@@ -8,25 +13,20 @@
   class: icon-soundcloud
   title: "Duy T. Bui's soundcloud"
 
-- name: GitHub
-  url: http://github.com/duybuivn
-  class: icon-github
-  title: Duy T. Bui code
-
 - name: Instagram
   url: https://instagram.com/duybuit/
   class: icon-instagram
   title: "Duy T. Bui's Instagram"
 
-- name: Google Plus
-  url: https://instagram.com/duybuit/
-  class: icon-gplus
-  title: "Duy T. Bui's Instagram"
+- name: YouTube
+  url: https://www.youtube.com/user/duybuivn
+  class: icon-youtube
+  title: "Duy T. Bui's Youtube channel"
 
-- name: Skype
-  url: https://instagram.com/duybuit/
-  class: icon-skype
-  title: "Duy T. Bui's Instagram"
+- name: Twitter
+  url: https://twitter.com/dickypei
+  class: icon-twitter
+  title: "dickypei's Twitter"
 
 # - name: Xing
 #   url: https://www.xing.com/profile/Moritzmo_Sauer
