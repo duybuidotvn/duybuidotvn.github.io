@@ -4,9 +4,9 @@
   title: "Duy T. Bui's facebook"
 
 - name: Soundcloud
-  url: http://soundcloud.com/phlow
+  url: https://soundcloud.com/duy-bui-28
   class: icon-soundcloud
-  title: "Sounds und Downloads und mehr"
+  title: "Duy T. Bui's soundcloud"
 
 - name: GitHub
   url: http://github.com/duybuivn
@@ -14,29 +14,19 @@
   title: Duy T. Bui code
 
 - name: Instagram
-  url: http://instagram.com/phlowmedia
+  url: https://instagram.com/duybuit/
   class: icon-instagram
-  title: "Bilder und Impressionen mit und ohne Filter..."
+  title: "Duy T. Bui's Instagram"
 
-- name: Pinterest
-  url: http://www.pinterest.com/phlowmedia/
-  class: icon-pinterest
-  title: "Bilder, Fotos, Illustrationen, Grafiken sammeln..."
+- name: Google Plus
+  url: https://instagram.com/duybuit/
+  class: icon-gplus
+  title: "Duy T. Bui's Instagram"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
-
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
-
-- name: Twitter
-  url: http://twitter.com/phlow
-  class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+- name: Skype
+  url: https://instagram.com/duybuit/
+  class: icon-skype
+  title: "Duy T. Bui's Instagram"
 
 # - name: Xing
 #   url: https://www.xing.com/profile/Moritzmo_Sauer
