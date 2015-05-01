@@ -5,6 +5,15 @@
 - title: About me
   url: "/about-me/"
   side: left
+  dropdown:
+  - title: "Curriculum Vitae"
+    url: "/about-me/curriculum-vitae/"
+  - title: "Research"
+    url: "/about-me/research/"
+  - title: "Teaching"
+    url: "/about-me/teaching/"
+  - title: "Other"
+    url: "/about-me/other/"
 
 - title: "Templates"
   url: "/design/"
