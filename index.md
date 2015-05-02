@@ -9,9 +9,9 @@ title: "Duy T. Bui – On my way"
 header:
    image_fullwidth: "header_unsplash_12.jpg"
 widget-1:
-    title: "Blog & Portfolio"
-    url: 'http://phlow.github.io/feeling-responsive/blog/'
-    text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+    title: "About me & Portfolio"
+    url: 'http://duybuivn.github.io/about/'
+    text: 'This is a brief introduction <em>about me</em>: <br>1. Who am I? <br>2. My curriculum viate. <br> 3. My research interesting. <br>4. Courses teaching. <br>5. Other: hobbies, volunteer Experiences...etc.'
     image: unsplash_9-302x182.jpg
 widget-2:
     title: "Why use this theme?"

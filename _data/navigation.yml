@@ -15,6 +15,34 @@
   - title: "Other"
     url: "/about/other/"
 
+- title: Photo's diary
+  url: "/design/gallery"
+  side: left
+  dropdown:
+  - title: "2015"
+    url: "/design/gallery"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: Technical
+    url: "/blog/"
+  - title: Life experience
+    url: "/life-exp/"
+  - title: Tản Văn
+    url: "/tan-van/"
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+    
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
+
 - title: "Templates"
   url: "/design/"
   side: left
@@ -70,19 +98,3 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: Blog
-    url: "/blog/"
-  - title: "Blog Archive"
-    url: "/blog/archive/"
-
-- title: "Search"
-  url: "/search/"
-  side: right
-
-- title: "Contact"
-  url: "/contact/"
-  side: right
