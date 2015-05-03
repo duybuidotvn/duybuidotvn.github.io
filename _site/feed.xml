@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Duy T. Bui &#39;s page</title>
+    <title>Duy Bui&#39;s digital porfolio</title>
     <description>It&#39;s made me closer the world</description>
     <link>https://duybuivn.github.io/</link>
     <atom:link href="https://duybuivn.github.io/feed.xml" rel="self" type="application/rss+xml" />
@@ -461,7 +461,15 @@ element&lt;/td&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
@@ -505,7 +513,15 @@ image:
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
@@ -545,7 +561,15 @@ image:
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
@@ -563,6 +587,154 @@ image:
         <pubDate>Thu, 12 Mar 2015 00:00:00 +0700</pubDate>
         <link>https://duybuivn.github.io/design/no-header/</link>
         <guid isPermaLink="true">https://duybuivn.github.io/design/no-header/</guid>
+      </item>
+    
+      <item>
+        <title>No Header</title>
+        <description>&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;header: no
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 +0700</pubDate>
+        <link>https://duybuivn.github.io/about/teaching/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/teaching/</guid>
+      </item>
+    
+      <item>
+        <title>No Header</title>
+        <description>&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;header: no
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 +0700</pubDate>
+        <link>https://duybuivn.github.io/about/research/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/research/</guid>
+      </item>
+    
+      <item>
+        <title>Header With Text</title>
+        <description>&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;header:
+    title: Curriculum Vitae
+    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 +0700</pubDate>
+        <link>https://duybuivn.github.io/about/header-with-text/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/header-with-text/</guid>
       </item>
     
       <item>
@@ -589,7 +761,15 @@ image:
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
@@ -610,55 +790,10 @@ image:
       </item>
     
       <item>
-        <title>Header With Logo Only</title>
-        <description>&lt;p&gt;No front matter code needed.&lt;/p&gt;
+        <title>No Header</title>
+        <description>&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:&lt;/p&gt;
 
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 09 Oct 2014 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/design/header-logo-only/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/design/header-logo-only/</guid>
-      </item>
-    
-      <item>
-        <title>Header Image With Background Color</title>
-        <description>&lt;p&gt;It’s so easy to do. Just define in front matter an image and a background color. Instead of a color you can also use a pattern image. Have a look at the &lt;a href=&quot;https://duybuivn.github.io/design/header-image-pattern/&quot;&gt;example with a background pattern&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;div class=&quot;alert-box radius alert&quot;&gt;WARNING: To make this work the value of &lt;em&gt;background-color&lt;/em&gt; must be inbetween quotes.&lt;/div&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    image:  &quot;header_unsplash_2-970x.jpg&quot;
-    background-color:  &quot;#fabb00&quot;
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
+&lt;pre&gt;&lt;code&gt;header: no
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
@@ -674,7 +809,15 @@ image:
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
@@ -689,100 +832,9 @@ image:
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Thu, 09 Oct 2014 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/design/header-image-color/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/design/header-image-color/</guid>
-      </item>
-    
-      <item>
-        <title>Header with a Full-Width-Image</title>
-        <description>&lt;p&gt;It’s so easy to do. Just define in front matter your image.&lt;/p&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    image_fullwidth: &quot;unsplash_brooklyn-bridge_header.jpg&quot;
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 09 Oct 2014 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/design/header-full-width-image/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/design/header-full-width-image/</guid>
-      </item>
-    
-      <item>
-        <title>Header Image With Pattern</title>
-        <description>&lt;p&gt;It’s so easy to do. Just define in front matter an image and a pattern image. Instead of a pattern you can also use a color. Have a look at the &lt;a href=&quot;https://duybuivn.github.io/design/header-image-color/&quot;&gt;example with a background color&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    image:  &quot;header_unsplash_2-970x.jpg&quot;
-    pattern:  &quot;pattern_concrete.jpg&quot;
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 08 Oct 2014 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/design/header-image-pattern/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/design/header-image-pattern/</guid>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 +0700</pubDate>
+        <link>https://duybuivn.github.io/about/curriculum-vitae/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/curriculum-vitae/</guid>
       </item>
     
   </channel>
