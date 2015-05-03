@@ -16,11 +16,11 @@
     url: "/about/other/"
 
 - title: Photo's diary
-  url: "/design/gallery"
+  url: "/photo-diary/"
   side: left
   dropdown:
   - title: "2015"
-    url: "/design/gallery"
+    url: "/photo-diary/gallery-2015"
 
 - title: Blog
   url: "/blog/"
