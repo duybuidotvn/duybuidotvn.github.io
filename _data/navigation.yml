@@ -20,7 +20,7 @@
   side: left
   dropdown:
   - title: "2015"
-    url: "/photo-diary/gallery-2015"
+    url: "/photo-diary/gallery-2015/"
 
 - title: Blog
   url: "/blog/"
@@ -38,4 +38,3 @@
 - title: "Contact"
   url: "/contact/"
   side: right
-
