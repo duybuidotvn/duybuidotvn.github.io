@@ -22,15 +22,6 @@
   - title: "2015"
     url: "/photo-diary/gallery-2015"
 
-- title: Technical
-  url: "/technical/"
-  side: left
-  - title: "Technical"
-    url: "/technical/"
-  - title: "Technical Archive"
-    url: "/technical/archive/"
-
-
 - title: Blog
   url: "/blog/"
   side: left
