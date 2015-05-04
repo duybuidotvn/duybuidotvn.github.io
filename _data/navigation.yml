@@ -34,11 +34,6 @@
 - title: Technical
   url: "/technical/"
   side: left
-  dropdown:
-  - title:: Technical
-    url: "/technical/"
-  - title: "Technical Archive"
-    url: "/technical/archive/"
 
 - title: "Search"
   url: "/search/"
