@@ -22,18 +22,23 @@
   - title: "2015"
     url: "/photo-diary/gallery-2015"
 
+- title: Technical
+  url: "/technical/"
+  side: left
+  - title: "Technical"
+    url: "/technical/"
+  - title: "Technical Archive"
+    url: "/technical/archieve/"
+
+
 - title: Blog
   url: "/blog/"
   side: left
   dropdown:
-  - title: Blog
+  - title: "Blog"
     url: "/blog/"
   - title: "Blog Archive"
     url: "/blog/archive/"
-
-- title: Technical
-  url: "/technical/"
-  side: left
 
 - title: "Search"
   url: "/search/"
