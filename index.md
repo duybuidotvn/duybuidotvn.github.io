@@ -15,7 +15,7 @@ widget-1:
     image: unsplash_9-302x182.jpg
 widget-2:
     title: "Photo's diary"
-    url: 'http://phlow.github.io/feeling-responsive/info/'
+    url: 'https://duybuivn.github.io/photo-diary/'
     text: 'A brief diary by photos of mine. Visited ... '
     image: unsplash_8-302x182.jpg
 widget-3:
