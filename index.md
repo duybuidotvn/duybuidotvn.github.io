@@ -17,7 +17,7 @@ widget-2:
     title: "Photo's diary"
     url: 'http://phlow.github.io/feeling-responsive/info/'
     text: 'A brief diary by photos of mine. Visited ... '
-    image: 
+    image: unsplash_8-302x182.jpg
 widget-3:
     title: "F&Q"
     url: 'https://github.com/duybuivn/'
