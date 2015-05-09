@@ -65,14 +65,20 @@ Therefore if you like to keep things simple and you prefer the command-line over
 ## How Jekylly works {#styling}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## An introduction about Jekyll {#styling}
 `**Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.`
 =======
+=======
+>>>>>>> FETCH_HEAD
 ~~~
 **Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. 
 This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.
 ~~~
+<<<<<<< HEAD
 >>>>>>> 10f594a5d2ce72ae4a157ed5138497ce72ce7989
+=======
+>>>>>>> FETCH_HEAD
 
 ### Initial Setup
 After [installing Jekyll][1] you'll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.
