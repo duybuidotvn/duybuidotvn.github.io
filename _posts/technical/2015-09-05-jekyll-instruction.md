@@ -27,7 +27,6 @@ header: no
 {% include improve_content.html %}
 
 ## An introduction about Jekyll {#formats}
-
 ### What is Jekyll? 
 *Jekyll* is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
 
@@ -61,9 +60,11 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - Ability to host your blog on a static web-server.
 - Ability to host freely on GitHub Pages.
 - No database required.
+## How Jekylly works {#styling}
 
-## An introduction about Jekyll {#styling}
-'**Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.'
+~~~
+`**Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.`
+~~~
 
 ### Initial Setup
 After [installing Jekyll][1] you'll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.
