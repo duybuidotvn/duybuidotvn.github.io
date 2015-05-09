@@ -1,10 +1,10 @@
 ---
 layout: page-fullwidth
-title: "Jekyll Instruction"
-subheadline: "An Overview about Jekyll"
+title: "An Overview about Jekyll"
+subheadline: "Jekyll instruction"
 teaser: "The documentation is a work in progress..."
 categories:
-    - blog
+    - technical
 tags:
     - Web Framework
     - Jekyll Framework
@@ -32,9 +32,9 @@ header: no
 
 
 ### What does Jekyll do?
-*Jekyll* is installed as a ruby gem local computer. Once installed you can call 'jekyll serve' in the terminal in a directory and provided that directory is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, compute categories, tags, permalinks, and construct your pages from layout templates and partials.
+*Jekyll* is installed as a ruby gem local computer. Once installed you can call `jekyll serve` in the terminal in a directory and provided that directory is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, compute categories, tags, permalinks, and construct your pages from layout templates and partials.
 
-Once parsed, Jekyll stores the result in a self-contained static '_site' folder. The intention here is that you can serve all contents in this folder statically from a plain static web-server.
+Once parsed, Jekyll stores the result in a self-contained static `_site` folder. The intention here is that you can serve all contents in this folder statically from a plain static web-server.
 
 You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags on each request, Jekyll does this once beforehand and caches the entire website in a folder for serving statically.
 
@@ -50,7 +50,8 @@ Jekyll is very minimalistic and very efficient. The most important thing to real
 
 Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
 
-**Developers like Jekyll because we can write content like we write code:**
+> Developers like Jekyll because we can write content like we write code:
+<cite>Jekyll framework</cite>
 
 - Ability to write content in markdown or textile in your favorite text-editor.
 - Ability to write and preview your content via localhost.
