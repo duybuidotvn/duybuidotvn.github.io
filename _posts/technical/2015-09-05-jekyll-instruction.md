@@ -27,25 +27,25 @@ header: no
 {% include improve_content.html %}
 
 ## An introduction about Jekyll {#formats}
-### What is Jekyll? 
+### What is Jekyll? ###
 *Jekyll* is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
 
 
-### What does Jekyll do?
+### What does Jekyll do?###
 *Jekyll* is installed as a ruby gem local computer. Once installed you can call `jekyll serve` in the terminal in a directory and provided that directory is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, compute categories, tags, permalinks, and construct your pages from layout templates and partials.
 
 Once parsed, Jekyll stores the result in a self-contained static `_site` folder. The intention here is that you can serve all contents in this folder statically from a plain static web-server.
 
 You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags on each request, Jekyll does this once beforehand and caches the entire website in a folder for serving statically.
 
-### Jekyll is Not Blogging Software.
+### Jekyll is Not Blogging Software.###
 
 > Jekyll is a parsing engine.
 <cite>Jekyll framework</cite>
 
 *Jekyll* does not come with any content nor does it have any templates or design elements. This is a common source of confusion when getting started. Jekyll does not come with anything you actually use or see on your website - you have to make it.
 
-### Why Should I Care?
+### Why Should I Care?###
 Jekyll is very minimalistic and very efficient. The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server. Traditional dynamic blogs like Wordpress require a database and server-side code. Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.
 
 Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
@@ -63,7 +63,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 ## How Jekylly works {#styling}
 
 ~~~
-`**Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.`
+**Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.
 ~~~
 
 ### Initial Setup
