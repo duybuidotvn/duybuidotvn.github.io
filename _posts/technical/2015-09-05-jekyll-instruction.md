@@ -4,8 +4,9 @@ title: "An Overview about Jekyll"
 subheadline: "Jekyll instruction"
 teaser: "The documentation is a work in progress..."
 categories:
-    - technical
+    - about
 tags:
+    - Blog Technical
     - Web Framework
     - Jekyll Framework
 header: no
