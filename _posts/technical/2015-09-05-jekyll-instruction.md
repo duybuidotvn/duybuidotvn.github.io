@@ -1,10 +1,10 @@
 ---
 layout: page-fullwidth
 title: "An Overview about Jekyll"
-subheadline: "Jekyll instruction"
+subheadline: "Jekyll Instruction"
 teaser: "The documentation is a work in progress..."
 categories:
-    - about
+    - technical
 tags:
     - Blog Technical
     - Web Framework
