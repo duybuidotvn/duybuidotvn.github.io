@@ -63,7 +63,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - Ability to host freely on GitHub Pages.
 - No database required.
 
-## How Jekylly works
+## How Jekyll works
 {% include alert info='<b>Heads up!</b> The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. 
 This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
 
