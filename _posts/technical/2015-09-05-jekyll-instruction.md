@@ -61,7 +61,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - No database required.
 
 ## An introduction about Jekyll {#styling}
-'**Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.'
+`**Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.`
 
 ### Initial Setup
 After [installing Jekyll][1] you'll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.
@@ -104,18 +104,18 @@ Jekyll expects your website directory to be laid out like so:
 
 [read more] [2]
 
-## Jekyll Configuration 
+### Jekyll Configuration 
 
 Jekyll supports various configuration options that are fully outlined [here:][3]
 
-### Content in Jekyll
+## Content in Jekyll
 Content in Jekyll is either a post or a page. These content "objects" get inserted into one or more templates to build the final output for its respective static-page.
 
-**Posts and Pages**
+###Posts and Pages
 
 Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax. Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.
 
-####Working With Posts####
+####Working With Posts
 
 **Creating a Post**
 Posts are created by properly formatting a file and placing it the _posts folder.
@@ -133,15 +133,17 @@ Posts can have tags associated with them as part of their meta-data. Tags may be
 
 **Categories**
 Posts may be categorized by providing one or more categories in the YAML front matter. Categories offer more significance over tags in that they can be reflected in the URL path to the given post. Note categories in Jekyll work in a specific way. If you define more than one category you are defining a category hierarchy "set". Example:
+
 ~~~
 1.    ---
 2.    title :  Hello World
 3.    categories : [lessons, beginner]
 4     ---
 ~~~
+
 This defines the category hierarchy "lessons/beginner". Note this is one category node in Jekyll. You won't find "lessons" and "beginner" as two separate categories unless you define them elsewhere as singular categories.
 
-####Working With Pages####
+####Working With Pages
 
 **Creating a Page**
 Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do not start with an underscore.
@@ -154,11 +156,13 @@ Pages do not compute categories nor tags so defining them will have no effect.
 
 **Sub-Directories**
 If pages are defined in sub-directories, the path to the page will be reflected in the url. Example:
-~~~
+
+`~~~
 ├── people
 |     ├── DuyBui
 |            └──  eassy.html
-~~~
+~~~`
+
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 **Recommended Pages**
 
