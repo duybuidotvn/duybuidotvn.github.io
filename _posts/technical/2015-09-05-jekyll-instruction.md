@@ -63,11 +63,10 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - Ability to host freely on GitHub Pages.
 - No database required.
 ## How Jekylly works {#styling}
-~~~
+`
 **Heads up!** The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. 
 This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.
-~~~
-
+`
 ### Initial Setup
 After [installing Jekyll][1] you'll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.
 
@@ -162,11 +161,11 @@ Pages do not compute categories nor tags so defining them will have no effect.
 **Sub-Directories**
 If pages are defined in sub-directories, the path to the page will be reflected in the url. Example:
 
-`~~~
+`
 ├── people
 |     ├── DuyBui
 |            └──  eassy.html
-~~~`
+`
 
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 **Recommended Pages**
