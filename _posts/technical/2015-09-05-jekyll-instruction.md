@@ -360,7 +360,8 @@ This include lets you easily display an alert. To use the include no `.html` end
 ~~~
 
 {% include alert warning='This is a warning.' %}
-{% include alert info='<b>Heads up!</b> The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
+{% include alert info='My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a <i>programmer's</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
+{% include alert info='a test' %}
 {% include alert success='Yeah, you made it!' %}
 {% include alert alert='Danger!' %}
 {% include alert terminal='jekyll -serve' %}
