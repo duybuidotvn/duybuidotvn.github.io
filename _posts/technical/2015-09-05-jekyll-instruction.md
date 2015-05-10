@@ -30,7 +30,7 @@ header: no
 In this part, I will introduction an overview about Jekyll framework. This is a good framework for whom want to create a digital porfolio. 
 
 ### What is Jekyll? ###
-*Jekyll* is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
+*Jekyll* is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as `a simple, blog aware, static site generator`.
 
 
 ### What does Jekyll do?###
@@ -65,8 +65,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 
 ## How Jekyll works
 
-{% include alert info='<i><b>Heads up!</b></i> <br>The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
-
+{% include alert info='<h4><ins><b>Heads up!</b></ins></h4> <br>The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
 
 ### Initial Setup
 After [installing Jekyll][1] you'll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.
@@ -106,11 +105,9 @@ Jekyll expects your website directory to be laid out like so:
 **_site**: This is where the generated site will be placed once Jekyll is done transforming it.
 
 **assets**: This folder is not part of the standard jekyll structure. The assets folder represents any generic folder you happen to create in your root directory. Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.
-
 [read more] [2]
 
 ### Jekyll Configuration 
-
 Jekyll supports various configuration options that are fully outlined [here:][3]
 
 ## Content in Jekyll
@@ -121,7 +118,6 @@ Content in Jekyll is either a post or a page. These content "objects" get insert
 Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax. Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.
 
 ####Working With Posts
-
 **Creating a Post**
 Posts are created by properly formatting a file and placing it the _posts folder.
 
@@ -149,7 +145,6 @@ Posts may be categorized by providing one or more categories in the YAML front m
 This defines the category hierarchy "lessons/beginner". Note this is one category node in Jekyll. You won't find "lessons" and "beginner" as two separate categories unless you define them elsewhere as singular categories.
 
 ####Working With Pages
-
 **Creating a Page**
 Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do not start with an underscore.
 
@@ -169,53 +164,64 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 `
 
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
+
 **Recommended Pages**
+    - **index.html**: You will always want to define the root index.html page as this will display on your root URL.
+    - **404.html**: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
+    - **sitemap.html**: Generating a sitemap is good practice for SEO.
+    - **about.html**: A nice about page is easy to do and gives the human perspective to your website.
 
-- **index.html**: You will always want to define the root index.html page as this will display on your root URL.
-- **404.html**: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
-- **sitemap.html**: Generating a sitemap is good practice for SEO.
-- **about.html**: A nice about page is easy to do and gives the human perspective to your website.
-### Quotes
+### Templates in Jekyll
+Templates are used to contain a page's or post's content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.
 
-Quotes mix it up a little bit, if you write long articles. So use quotes:
+**Create a Template**
+Templates are created by properly formatting a file and placing it in the `_layouts` directory.
 
-> Age is an issue of mind over matter. If you don't mind, it doesn't matter.
-<cite>Mark Twain</cite>
+**Formatting** 
+Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site's data.
 
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
+**Rending Page/Post Content in a Template**
+There is a special variable in all templates named : `content`. The content variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:
 
+~~~
+<body>
+  <div id="sidebar"> ... </div>
+  <div id="main">
+    {{content}}
+  </div>
+</body>
+~~~
 
-## Comments
+**Sub-Templates**
+Sub-templates are exactly templates with the only difference being they define another "root" layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.
 
-You can use comments with *Feeling Responsive* by the way of Disqus. If you want to use Disqus-Comments just open `config.yml` and add your `disqus_shortname`. [More on how to use Disqus ›](https://disqus.com/websites/)
+**Includes**
+In Jekyll you can define include files by placing them in the `_includes` folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.
 
-By default comments are turned off. You can customize the default behaviour in `config.yml`. To **turn on comments** just add `comments: true` to front matter using the page layout `layout: page`. 
+Any valid template code may be used in includes.
 
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
+## Using Liquid for Templating
+Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.
 
+###What is Liquid?###
+[Liquid][4] is a secure templating language developed by [Shopify][5]. Liquid is designed for end-users to be able to execute logic within template files without imposing any security risk on the hosting server.
 
+Jekyll uses Liquid to generate the post content within the final page layout structure and as the primary interface for working with your site and post/page data.
 
+###Why Do We Have to Use Liquid?##
+GitHub uses Jekyll to power [GitHub Pages][6]. GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.
 
-## Responsive Videos
+###Liquid is Not Programmer-Friendly.###
 
-With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
+The short story is liquid is not real code and its not intended to execute real code. The point being you can't do jackshit in liquid that hasn't been allowed explicitly by the implementation. What's more you can only access data-structures that have been explicitly passed to the template.
 
-<div class="flex-video">
-        <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
-</div>
+In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.
 
-### Code to use for flexible videos
+{% include alert info='My personal stance is to not invest time trying to hack liquid. It's really unnecessary from a <i>programmer's</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I've built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
 
-{% highlight html %}
-<div class="flex-video">
-  <iframe with video />
-</div>
-{% endhighlight %}
+## Static Assets
 
-
-<img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg">
+Static assets are any file in the root or non-underscored subfolders that are not pages. That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages. Static assets should be used for images, css, and javascript files.
 
 ## Images: Title, Thumbnails, Homepage   {#images}
 
@@ -418,9 +424,9 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
  [1]: http://jekyllrb.com/docs/installation/
  [2]: http://jekyllrb.com/docs/usage/
  [3]: http://jekyllrb.com/docs/configuration/
- [4]: #
- [5]: #
- [6]: #
+ [4]: https://github.com/Shopify/liquid/
+ [5]: http://www.shopify.com/
+ [6]: https://pages.github.com/
  [7]: #
  [8]: #
  [9]: #
