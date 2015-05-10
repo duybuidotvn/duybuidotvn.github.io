@@ -65,7 +65,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 
 ## How Jekyll works
 
-{% include alert info='<h4><ins><b>Heads up!</b></ins></h4> <br>The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
+{% include alert info='<ins><b>Heads up!</b></ins><br>The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
 
 ### Initial Setup
 After [installing Jekyll][1] you'll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.
@@ -197,7 +197,7 @@ The short story is liquid is not real code and its not intended to execute real 
 
 In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.
 
-
+{% include alert info='My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a <i>programmer's</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
 
 ## Static Assets
 
