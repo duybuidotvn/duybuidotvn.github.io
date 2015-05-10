@@ -7,6 +7,453 @@
     <atom:link href="https://duybuivn.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>An Overview about Jekyll</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
+    &lt;div class=&quot;panel radius&quot;&gt;
+      &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#formats&quot;&gt;An introduction about Jekyll&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#what-is-jekyll&quot;&gt;What is Jekyll?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#what-does-jekyll-do&quot;&gt;What does Jekyll do?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#jekyll-is-not-blogging-software&quot;&gt;Jekyll is Not Blogging Software.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#why-should-i-care&quot;&gt;Why Should I Care?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-jekyll-works&quot;&gt;How Jekyll works&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#initial-setup&quot;&gt;Initial Setup&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#jekyll-configuration&quot;&gt;Jekyll Configuration&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#content-in-jekyll&quot;&gt;Content in Jekyll&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#posts-and-pages&quot;&gt;Posts and Pages&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#working-with-posts&quot;&gt;Working With Posts&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#working-with-pages&quot;&gt;Working With Pages&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#templates-in-jekyll&quot;&gt;Templates in Jekyll&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-liquid-for-templating&quot;&gt;Using Liquid for Templating&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#what-is-liquid&quot;&gt;What is Liquid?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#why-do-we-have-to-use-liquid&quot;&gt;Why Do We Have to Use Liquid?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#liquid-is-not-programmer-friendly&quot;&gt;Liquid is Not Programmer-Friendly.&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#static-assets&quot;&gt;Static Assets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#images&quot;&gt;Images: Title, Thumbnails, Homepage&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#title-images&quot;&gt;Title Images&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#thumbnails&quot;&gt;Thumbnails&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#homepage-image&quot;&gt;Homepage Image&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#captions-with-url&quot;&gt;Captions with URL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#define-all-images-for-an-article&quot;&gt;Define all images for an article&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#create-a-table-of-content&quot;&gt;Create a Table of Content&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#bare-bones-version&quot;&gt;Bare Bones Version&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#foundation-panel-version&quot;&gt;Foundation panel version&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#breadcrumbs&quot;&gt;Breadcrumbs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#includes&quot;&gt;Includes&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#list-postshtml&quot;&gt;list-posts.html&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#next-previous-post-in-categoryhtml&quot;&gt;next-previous-post-in-category.html&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#improvecontenthtml&quot;&gt;improve_content.html&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#list-collectionhtml&quot;&gt;list-collection.html&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#alert-embed-an-alert-in-your-content&quot;&gt;alert – Embed an alert in your content&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#javascriptfoundation-modules&quot;&gt;Javascript/Foundation modules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!-- /.medium-4.columns --&gt;
+
+
+
+&lt;div class=&quot;medium-8 medium-pull-4 columns&quot;&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;small-12 columns&quot;&gt;
+	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/Phlow/feeling-responsive/edit/gh-pages/_posts/technical/2015-09-05-jekyll-instruction.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
+			This content is open source.
+			&lt;a href=&quot;https://github.com/Phlow/feeling-responsive/edit/gh-pages/_posts/technical/2015-09-05-jekyll-instruction.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;h2 id=&quot;formats&quot;&gt;An introduction about Jekyll&lt;/h2&gt;
+    &lt;p&gt;In this part, I will introduction an overview about Jekyll framework. This is a good framework for whom want to create a digital porfolio. &lt;/p&gt;
+
+    &lt;h3 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h3&gt;
+    &lt;p&gt;&lt;em&gt;Jekyll&lt;/em&gt; is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as &lt;code&gt;a simple, blog aware, static site generator&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;what-does-jekyll-do&quot;&gt;What does Jekyll do?&lt;/h3&gt;
+    &lt;p&gt;&lt;em&gt;Jekyll&lt;/em&gt; is installed as a ruby gem local computer. Once installed you can call &lt;code&gt;jekyll serve&lt;/code&gt; in the terminal in a directory and provided that directory is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, compute categories, tags, permalinks, and construct your pages from layout templates and partials.&lt;/p&gt;
+
+    &lt;p&gt;Once parsed, Jekyll stores the result in a self-contained static &lt;code&gt;_site&lt;/code&gt; folder. The intention here is that you can serve all contents in this folder statically from a plain static web-server.&lt;/p&gt;
+
+    &lt;p&gt;You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags on each request, Jekyll does this once beforehand and caches the entire website in a folder for serving statically.&lt;/p&gt;
+
+    &lt;h3 id=&quot;jekyll-is-not-blogging-software&quot;&gt;Jekyll is Not Blogging Software.&lt;/h3&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Jekyll is a parsing engine.
+&lt;cite&gt;Jekyll framework&lt;/cite&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;em&gt;Jekyll&lt;/em&gt; does not come with any content nor does it have any templates or design elements. This is a common source of confusion when getting started. Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
+
+    &lt;h3 id=&quot;why-should-i-care&quot;&gt;Why Should I Care?&lt;/h3&gt;
+    &lt;p&gt;Jekyll is very minimalistic and very efficient. The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server. Traditional dynamic blogs like Wordpress require a database and server-side code. Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.&lt;/p&gt;
+
+    &lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Developers like Jekyll because we can write content like we write code:
+&lt;cite&gt;Jekyll framework&lt;/cite&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Ability to write content in markdown or textile in your favorite text-editor.&lt;/li&gt;
+      &lt;li&gt;Ability to write and preview your content via localhost.&lt;/li&gt;
+      &lt;li&gt;No internet connection required.&lt;/li&gt;
+      &lt;li&gt;Ability to publish via git.&lt;/li&gt;
+      &lt;li&gt;Ability to host your blog on a static web-server.&lt;/li&gt;
+      &lt;li&gt;Ability to host freely on GitHub Pages.&lt;/li&gt;
+      &lt;li&gt;No database required.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;how-jekyll-works&quot;&gt;How Jekyll works&lt;/h2&gt;
+
+    &lt;div class=&quot;alert-box info radius&quot;&gt;&lt;ins&gt;&lt;b&gt;Heads up!&lt;/b&gt;&lt;/ins&gt;&lt;br /&gt;The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.&lt;/div&gt;
+
+    &lt;h3 id=&quot;initial-setup&quot;&gt;Initial Setup&lt;/h3&gt;
+    &lt;p&gt;After &lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;installing Jekyll&lt;/a&gt; you’ll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;The Jekyll Application Base Format:&lt;/strong&gt; 
+Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;├── _config.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.textile
+|   └── on-simplicity-in-technology.markdown
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.markdown
+|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+├── assets
+|   └── css
+|   └── javascript
+├── _site
+├── .jekyll-metadata
+└── index.html
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;&lt;strong&gt;_config.yml&lt;/strong&gt;: Stores configuration data.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;_includes&lt;/strong&gt;: This folder is for partial views.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;_layouts&lt;/strong&gt;: This folder is for the main templates your content will be inserted into. You can have different layouts for different pages or page sections.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;_posts&lt;/strong&gt;: This folder contains your dynamic content/posts. the naming format is required to be &lt;code&gt;@YEAR-MONTH-DATE-title.MARKUP@.&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;_site&lt;/strong&gt;: This is where the generated site will be placed once Jekyll is done transforming it.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;assets&lt;/strong&gt;: This folder is not part of the standard jekyll structure. The assets folder represents any generic folder you happen to create in your root directory. Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.
+&lt;a href=&quot;http://jekyllrb.com/docs/usage/&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;
+
+    &lt;h3 id=&quot;jekyll-configuration&quot;&gt;Jekyll Configuration&lt;/h3&gt;
+    &lt;p&gt;Jekyll supports various configuration options that are fully outlined &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;here:&lt;/a&gt;&lt;/p&gt;
+
+    &lt;h2 id=&quot;content-in-jekyll&quot;&gt;Content in Jekyll&lt;/h2&gt;
+    &lt;p&gt;Content in Jekyll is either a post or a page. These content “objects” get inserted into one or more templates to build the final output for its respective static-page.&lt;/p&gt;
+
+    &lt;h3 id=&quot;posts-and-pages&quot;&gt;Posts and Pages&lt;/h3&gt;
+    &lt;p&gt;Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax. Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.&lt;/p&gt;
+
+    &lt;h4 id=&quot;working-with-posts&quot;&gt;Working With Posts&lt;/h4&gt;
+    &lt;p&gt;&lt;strong&gt;Creating a Post:&lt;/strong&gt; Posts are created by properly formatting a file and placing it the _posts folder.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Formatting:&lt;/strong&gt; A post must have a valid filename in the form &lt;code&gt;YEAR-MONTH-DATE-title.MARKUP&lt;/code&gt; and be placed in the &lt;code&gt;_posts&lt;/code&gt; directory. If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file. Additionally, each file must have YAML Front-Matter prepended to its content. YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Order:&lt;/strong&gt; Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy. Only reverse chronological and chronological ordering is supported in Jekyll.&lt;/p&gt;
+
+    &lt;p&gt;Since the date is hard-coded into the filename format, to change the order, you must change the dates in the filenames.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; Posts can have tags associated with them as part of their &lt;code&gt;meta-data&lt;/code&gt;. Tags may be placed on posts by providing them in the post’s YAML front matter. You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Categories:&lt;/strong&gt; Posts may be categorized by providing one or more categories in the YAML front matter. Categories offer more significance over tags in that they can be reflected in the URL path to the given post. Note categories in Jekyll work in a specific way. If you define more than one category you are defining a category hierarchy “set”. Example:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;1.    ---
+2.    title :  Hello World
+3.    categories : [lessons, beginner]
+4     ---
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;This defines the category hierarchy “lessons/beginner”. Note this is one category node in Jekyll. You won’t find “lessons” and “beginner” as two separate categories unless you define them elsewhere as singular categories.&lt;/p&gt;
+
+    &lt;h4 id=&quot;working-with-pages&quot;&gt;Working With Pages&lt;/h4&gt;
+    &lt;p&gt;&lt;strong&gt;Creating a Page:&lt;/strong&gt; Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do not start with an underscore.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;: In order to register as a Jekyll page the file must contain YAML Front-Matter. Registering a page means &lt;strong&gt;1)&lt;/strong&gt; that Jekyll will process the page and &lt;strong&gt;2)&lt;/strong&gt; that the page object will be available in the site.pages array for inclusion into your templates.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Categories and Tags&lt;/strong&gt;
+Pages do not compute categories nor tags so defining them will have no effect.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Sub-Directories&lt;/strong&gt;
+If pages are defined in sub-directories, the path to the page will be reflected in the url. Example:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;├── people
+|     ├── DuyBui
+|            └──  eassy.html
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;This page will be available at &lt;code&gt;http://yourdomain.com/people/DuyBui/essay.html&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;
+    - &lt;strong&gt;index.html&lt;/strong&gt;: You will always want to define the root index.html page as this will display on your root URL.
+    - &lt;strong&gt;404.html&lt;/strong&gt;: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
+    - &lt;strong&gt;sitemap.html&lt;/strong&gt;: Generating a sitemap is good practice for SEO.
+    - &lt;strong&gt;about.html&lt;/strong&gt;: A nice about page is easy to do and gives the human perspective to your website.&lt;/p&gt;
+
+    &lt;h3 id=&quot;templates-in-jekyll&quot;&gt;Templates in Jekyll&lt;/h3&gt;
+    &lt;p&gt;Templates are used to contain a page’s or post’s content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Create a Template:&lt;/strong&gt; Templates are created by properly formatting a file and placing it in the &lt;code&gt;_layouts&lt;/code&gt; directory.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Formatting:&lt;/strong&gt; Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site’s data.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Rending Page/Post Content in a Template:&lt;/strong&gt; There is a special variable in all templates named : &lt;code&gt;content&lt;/code&gt;. The content variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Sub-Templates&lt;/strong&gt;
+Sub-templates are exactly templates with the only difference being they define another “root” layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Includes&lt;/strong&gt;
+In Jekyll you can define include files by placing them in the &lt;code&gt;_includes&lt;/code&gt; folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.&lt;/p&gt;
+
+    &lt;p&gt;Any valid template code may be used in includes.&lt;/p&gt;
+
+    &lt;h2 id=&quot;using-liquid-for-templating&quot;&gt;Using Liquid for Templating&lt;/h2&gt;
+    &lt;p&gt;Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.&lt;/p&gt;
+
+    &lt;h3 id=&quot;what-is-liquid&quot;&gt;What is Liquid?&lt;/h3&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/&quot;&gt;Liquid&lt;/a&gt; is a secure templating language developed by &lt;a href=&quot;http://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt;. Liquid is designed for end-users to be able to execute logic within template files without imposing any security risk on the hosting server.&lt;/p&gt;
+
+    &lt;p&gt;Jekyll uses Liquid to generate the post content within the final page layout structure and as the primary interface for working with your site and post/page data.&lt;/p&gt;
+
+    &lt;h3 id=&quot;why-do-we-have-to-use-liquid&quot;&gt;Why Do We Have to Use Liquid?&lt;/h3&gt;
+    &lt;p&gt;GitHub uses Jekyll to power &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.&lt;/p&gt;
+
+    &lt;h3 id=&quot;liquid-is-not-programmer-friendly&quot;&gt;Liquid is Not Programmer-Friendly.&lt;/h3&gt;
+
+    &lt;p&gt;The short story is liquid is not real code and its not intended to execute real code. The point being you can’t do jackshit in liquid that hasn’t been allowed explicitly by the implementation. What’s more you can only access data-structures that have been explicitly passed to the template.&lt;/p&gt;
+
+    &lt;p&gt;In Jekyll’s case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.&lt;/p&gt;
+
+    &lt;div class=&quot;alert-box info radius&quot;&gt;My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a &lt;i&gt;programmer s&lt;/i&gt; perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built &lt;a href=&quot;http://github.com/plusjade/mustache-with-jekyll&quot;&gt;Mustache-with-Jekyll&lt;/a&gt; which is now abandoned =/. You should use &lt;a href=&quot;http://ruhoh.com&quot;&gt;http://ruhoh.com&lt;/a&gt; instead =D.&lt;/div&gt;
+
+    &lt;h2 id=&quot;static-assets&quot;&gt;Static Assets&lt;/h2&gt;
+
+    &lt;p&gt;Static assets are any file in the root or non-underscored subfolders that are not pages. That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages. Static assets should be used for images, css, and javascript files.&lt;/p&gt;
+
+    &lt;h2 id=&quot;images&quot;&gt;Images: Title, Thumbnails, Homepage&lt;/h2&gt;
+
+    &lt;p&gt;There are several types of images you can define via front matter. If you want to change the images used in the header have a look at &lt;a href=&quot;https://duybuivn.github.io/headers/&quot;&gt;Style your Header&lt;/a&gt;. &lt;/p&gt;
+
+    &lt;h3 id=&quot;title-images&quot;&gt;Title Images&lt;/h3&gt;
+
+    &lt;pre&gt;&lt;code&gt;image:
+    title: image.jpg
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;thumbnails&quot;&gt;Thumbnails&lt;/h3&gt;
+
+    &lt;p&gt;Thumbnails are used on archive pages like the &lt;a href=&quot;http://jekyllrb.com/docs/usage/&quot;&gt;blog index&lt;/a&gt;. They have a size of 150x150 pixels. Define them in front matter like this:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;image:
+    thumb: thumbnail_image.jpg
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;homepage-image&quot;&gt;Homepage Image&lt;/h3&gt;
+
+    &lt;p&gt;If you want to feature an article on the homepage with a huge image, than use the homepage image with a width of 970 pixels. If no homepage image is defined &lt;em&gt;Feeling Responsive&lt;/em&gt; writes instead &lt;em&gt;New Blog Articles&lt;/em&gt; over the blog entries. Define the homepage image like this:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;image:
+    homepage: header_homepage_13.jpg
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;captions-with-url&quot;&gt;Captions with URL&lt;/h3&gt;
+
+    &lt;p&gt;Sometimes you want to give credit to the creator of your images, maybe with a link. Especially when you use Creative Commons-images like I do for this website. Just add the following front matter and &lt;em&gt;Feeling Responsive&lt;/em&gt; does the rest:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;image:
+    title: header_image.jpg
+    caption: Image by Phlow
+    caption_url: &quot;http://phlow.de/&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;define-all-images-for-an-article&quot;&gt;Define all images for an article&lt;/h3&gt;
+
+    &lt;pre&gt;&lt;code&gt;image:
+    title: title_image.jpg
+    thumb: thumbnail_image.jpg
+    homepage: header_homepage_13.jpg
+    caption: Image by Phlow
+    caption_url: &quot;http://phlow.de/&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p class=&quot;text-right&quot;&gt;&lt;small&gt;&lt;a href=&quot;#toc&quot;&gt;Up to table of contents&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+    &lt;h2 class=&quot;t60&quot; id=&quot;create-a-table-of-content&quot;&gt;Create a Table of Content&lt;/h2&gt;
+
+    &lt;p&gt;With the Kramdown parser for Markdown you can render a table of contents for your documents. Just insert the following HTML in your post before the actual content. More information on &lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;»Automatic ›Table of Contents‹ Generation«&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;bare-bones-version&quot;&gt;Bare Bones Version&lt;/h3&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;### Table of Contents
+*  Auto generated table of contents
+{:toc}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;h3 id=&quot;foundation-panel-version&quot;&gt;Foundation panel version&lt;/h3&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;panel radius&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;p class=&quot;text-right&quot;&gt;&lt;small&gt;&lt;a href=&quot;#toc&quot;&gt;Up to table of contents&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+    &lt;h2 id=&quot;breadcrumbs&quot;&gt;Breadcrumbs&lt;/h2&gt;
+
+    &lt;p&gt;To turn on breadcrumbs, just use…&lt;/p&gt;
+
+    &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;breadcrumb: true&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;h2 class=&quot;t60&quot; id=&quot;includes&quot;&gt;Includes&lt;/h2&gt;
+
+    &lt;p&gt;Includes can be very helpful to spice up your content. You can use includes in your Markdown-files with ease: Just call them with some Liquid code.&lt;/p&gt;
+
+    &lt;h3 id=&quot;list-postshtml&quot;&gt;list-posts.html&lt;/h3&gt;
+
+    &lt;p&gt;The &lt;code&gt;list-posts.html&lt;/code&gt;-include is a loop to list posts. It’s a helper to add some additional content fast and easy. You can use it in individual posts for example. Which parameters you use, depends on you.&lt;/p&gt;
+
+    &lt;p&gt;Possible parameter for the loop:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;entries › define the number of entries to show&lt;/li&gt;
+      &lt;li&gt;offset › define the offset (number of entries to skip before displaying the first one)&lt;/li&gt;
+      &lt;li&gt;category › define &lt;strong&gt;only one&lt;/strong&gt; category to display according entries&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;The loop looks when you use all parameters. Single parameters are possible of course.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;{% include list-posts.html entries=&#39;3&#39; offset=&#39;1&#39; category=&#39;design&#39; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;next-previous-post-in-categoryhtml&quot;&gt;next-previous-post-in-category.html&lt;/h3&gt;
+
+    &lt;p&gt;This include creates a next/previous link to a post of the same category using the first categories-variable in front matter.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;{% include next-previous-post-in-category.html %}
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;improvecontenthtml&quot;&gt;improve_content.html&lt;/h3&gt;
+
+    &lt;p&gt;If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from &lt;a href=&quot;http://ben.balter.com/&quot;&gt;Ben Balters Blog&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;{% include improve_content.html %}
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;list-collectionhtml&quot;&gt;list-collection.html&lt;/h3&gt;
+
+    &lt;p&gt;This include lets you loop through a collection to list all entries in that collection. If you set »published: false« in front matter of a collection page the page gots filtered out via unless. The following example loops through a collection called &lt;em&gt;wordpress&lt;/em&gt;.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;{% include list-collection.html collection=&#39;wordpress&#39; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;h3 id=&quot;alert-embed-an-alert-in-your-content&quot;&gt;alert – Embed an alert in your content&lt;/h3&gt;
+
+    &lt;p&gt;This include lets you easily display an alert. To use the include no &lt;code&gt;.html&lt;/code&gt; ending is necessary. You can use five different kinds of alerts: &lt;code&gt;warning&lt;/code&gt;, &lt;code&gt;info&lt;/code&gt;, &lt;code&gt;success&lt;/code&gt;, &lt;code&gt;alert&lt;/code&gt; and &lt;code&gt;text&lt;/code&gt;. &lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;{% include alert warning=&#39;This is a warning.&#39; %}
+{% include alert info=&#39;An info box.&#39; %}
+{% include alert success=&#39;Yeah, you made it!&#39; %}
+{% include alert alert=&#39;Danger!&#39; %}
+{% include alert terminal=&#39;jekyll -serve&#39; %}
+{% include alert text=&#39;Just a note!&#39; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;div class=&quot;alert-box warning radius&quot;&gt;This is a warning.&lt;/div&gt;
+
+    &lt;div class=&quot;alert-box info radius&quot;&gt;My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a &lt;i&gt;programmer s&lt;/i&gt; perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built &lt;a href=&quot;http://github.com/plusjade/mustache-with-jekyll&quot;&gt;Mustache-with-Jekyll&lt;/a&gt; which is now abandoned =/. You should use &lt;a href=&quot;http://ruhoh.com&quot;&gt;http://ruhoh.com&lt;/a&gt; instead =D.&lt;/div&gt;
+
+    &lt;div class=&quot;alert-box info radius&quot;&gt;a test&lt;/div&gt;
+
+    &lt;div class=&quot;alert-box success radius&quot;&gt;Yeah, you made it!&lt;/div&gt;
+
+    &lt;div class=&quot;alert-box alert radius&quot;&gt;Danger!&lt;/div&gt;
+
+    &lt;div class=&quot;alert-box terminal radius&quot;&gt;jekyll -serve&lt;/div&gt;
+
+    &lt;div class=&quot;alert-box text radius&quot;&gt;Just a note!&lt;/div&gt;
+
+    &lt;p&gt;You can even use &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt;-tags inside the alert. Beware: Use “ and ‘ properly.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;{% include alert info=&#39;&amp;lt;em&amp;gt;Feeling Responsive&amp;lt;/em&amp;gt; is listed on &amp;lt;a href=&quot;http://jekyllthemes.org/&quot;&amp;gt;http://jekyllthemes.org&amp;lt;/a&amp;gt;&#39; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;div class=&quot;alert-box info radius&quot;&gt;&lt;b&gt;Heads up!&lt;/b&gt; The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.&lt;/div&gt;
+
+    &lt;p class=&quot;text-right&quot;&gt;&lt;small&gt;&lt;a href=&quot;#toc&quot;&gt;Up to table of contents&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+    &lt;h2 id=&quot;javascriptfoundation-modules&quot;&gt;Javascript/Foundation modules&lt;/h2&gt;
+
+    &lt;p&gt;&lt;em&gt;Feeling Responsive&lt;/em&gt; uses the foundation framework and some of its javascript components. I reduced the modules, to decrease page load and make the theme faster.&lt;/p&gt;
+
+    &lt;p&gt;I only added one other javascript-module: &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;&lt;code&gt;backstretch&lt;/code&gt;&lt;/a&gt; by Scott Robbin. These modules are currently used by the theme and included in &lt;code&gt;javascript.min.js&lt;/code&gt;. There is also a non-minified version, if you want to take a closer look: &lt;code&gt;javascript.js&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;/foundation/bower_components/foundation/js/vendor/jquery.js&#39;
+/foundation/bower_components/foundation/js/vendor/fastclick.js&#39;
+/foundation/bower_components/foundation/js/foundation.accordion.js&#39;
+/foundation/bower_components/foundation/js/foundation.clearing.js&#39;
+/foundation/bower_components/foundation/js/foundation.dropdown.js&#39;
+/foundation/bower_components/foundation/js/foundation.equalizer.js&#39;
+/foundation/bower_components/foundation/js/foundation.magellan.js&#39;
+/foundation/bower_components/foundation/js/foundation.topbar.js&#39;
+/foundation/js/jquery.backstretch.js&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;small-12 columns&quot;&gt;
+	&lt;div class=&quot;panel radius&quot; style=&quot;padding-bottom: 21px;&quot;&gt;
+			&lt;a class=&quot;button left r15 tiny radius&quot; href=&quot;https://github.com/Phlow/feeling-responsive/edit/gh-pages/_posts/technical/2015-09-05-jekyll-instruction.md&quot;&gt;Edit&lt;/a&gt;
+			&lt;p style=&quot;margin-top: 3px;&quot;&gt;
+			This content is open source.
+			&lt;a href=&quot;https://github.com/Phlow/feeling-responsive/edit/gh-pages/_posts/technical/2015-09-05-jekyll-instruction.md&quot;&gt;Help improve it&lt;/a&gt;.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;&lt;!-- /.medium-8.columns --&gt;
+&lt;/div&gt;
+&lt;!-- /.row --&gt;
+
+</description>
+        <pubDate>Sat, 05 Sep 2015 00:00:00 +0700</pubDate>
+        <link>https://duybuivn.github.io/technical/jekyll-instruction/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/technical/jekyll-instruction/</guid>
+      </item>
+    
+      <item>
         <title>No Header</title>
         <description>&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:&lt;/p&gt;
 
@@ -143,7 +590,7 @@
         <description>&lt;p&gt;You just need to choose a template like the &lt;a href=&quot;https://duybuivn.github.io/design/page/&quot;&gt;&lt;code&gt;page&lt;/code&gt;&lt;/a&gt;- or &lt;a href=&quot;https://duybuivn.github.io/design/page-fullwidth/&quot;&gt;&lt;code&gt;page-fullwidth&lt;/code&gt;&lt;/a&gt;-template and than use some foundation magic.&lt;/p&gt;
 
 &lt;ul class=&quot;clearing-thumbs small-block-grid-3&quot; data-clearing=&quot;&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_1.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_1_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.unsplash.com/photo-1431103327216-d1d9e8aa46d2&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_1_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_2.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_2_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_3.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_3_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_4.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_4_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
@@ -169,8 +616,6 @@
 
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/photo-diary/gallery-2015/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/gallery/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
 
   
@@ -180,50 +625,6 @@
         <pubDate>Mon, 15 Sep 2014 00:00:00 +0700</pubDate>
         <link>https://duybuivn.github.io/photo-diary/gallery-2015/</link>
         <guid isPermaLink="true">https://duybuivn.github.io/photo-diary/gallery-2015/</guid>
-      </item>
-    
-      <item>
-        <title>A Beautiful Gallery</title>
-        <description>&lt;p&gt;You just need to choose a template like the &lt;a href=&quot;https://duybuivn.github.io/design/page/&quot;&gt;&lt;code&gt;page&lt;/code&gt;&lt;/a&gt;- or &lt;a href=&quot;https://duybuivn.github.io/design/page-fullwidth/&quot;&gt;&lt;code&gt;page-fullwidth&lt;/code&gt;&lt;/a&gt;-template and than use some foundation magic.&lt;/p&gt;
-
-&lt;ul class=&quot;clearing-thumbs small-block-grid-3&quot; data-clearing=&quot;&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_1.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_1_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_2.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_2_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_3.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_3_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_4.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_4_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_5.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_5_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_6.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_6_bus_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;clearing-lightbox-code&quot;&gt;Clearing Lightbox Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://foundation.zurb.com/docs/components/clearing.html&quot;&gt;Clearing Lightbox&lt;/a&gt; is so flexible especially when using the &lt;a href=&quot;http://foundation.zurb.com/docs/components/block_grid.html&quot;&gt;block grid&lt;/a&gt;. For extensive documentation visit the &lt;a href=&quot;http://foundation.zurb.com/docs/components/clearing.html&quot;&gt;foundation docs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;clearing-thumbs small-block-grid-3&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-clearing&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 1&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 2&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 3&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 class=&quot;t60&quot; id=&quot;other-post-formats&quot;&gt;Other Post Formats&lt;/h2&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/photo-diary/gallery-2015/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/design/gallery/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 15 Sep 2014 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/design/gallery/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/design/gallery/</guid>
       </item>
     
   </channel>
