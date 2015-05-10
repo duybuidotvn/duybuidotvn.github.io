@@ -245,12 +245,7 @@ Liquification is defined as follows: Jekyll initiates a Liquid template, and pas
 **Jekyll generates output.**
 Finally the liquid templates are "rendered", thereby processing any liquid syntax provided in the templates and saving the final, static representation of the file.
 
-{% include alert warning='Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page.
-
-Remember, in Jekyll you are an end-user. Your API has only two components:
-<ul>
-<li>The manner in which you setup your directory.</li>
-<li>The liquid syntax and variables passed into the liquid templates.</li> </ul>' %}
+{% include alert warning='Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. <br>Remember, in Jekyll you are an end-user. Your API has only two components: <br><ul><li>1) The manner in which you setup your directory.</li> <li>2) The liquid syntax and variables passed into the liquid templates.</li></ul>' %}
 
 All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation [here][8]:
 
