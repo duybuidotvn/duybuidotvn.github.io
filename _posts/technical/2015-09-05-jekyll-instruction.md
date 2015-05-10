@@ -58,7 +58,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
     - Ability to host freely on GitHub Pages.
     - No database required.
 
-## **How Jekyll works**
+### How Jekyll works
 {% include alert info='<ins><b>Heads up!</b></ins><br>The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
 
 ### Initial Setup
@@ -104,7 +104,7 @@ Jekyll expects your website directory to be laid out like so:
 ### Jekyll Configuration 
 Jekyll supports various configuration options that are fully outlined [here:][3]
 
-## **Content in Jekyll**
+### Content in Jekyll
 Content in Jekyll is either a post or a page. These content "objects" get inserted into one or more templates to build the final output for its respective static-page.
 
 ###Posts and Pages
@@ -158,7 +158,7 @@ This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
     - **404.html**: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
 
     - **sitemap.html**: Generating a sitemap is good practice for SEO.
-    
+
     - **about.html**: A nice about page is easy to do and gives the human perspective to your website.
 
 ### Templates in Jekyll
@@ -169,6 +169,7 @@ Templates are used to contain a page's or post's content. All templates have acc
 **Formatting:** Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site's data.
 
 **Rending Page/Post Content in a Template:** There is a special variable in all templates named : `content`. The content variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:
+
 {% highlight html %}
 <body>
   <div id="sidebar"> ... </div>
@@ -186,7 +187,7 @@ In Jekyll you can define include files by placing them in the `_includes` folder
 
 Any valid template code may be used in includes.
 
-## Using Liquid for Templating
+## **Using Liquid for Templating**
 Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.
 
 ###What is Liquid?###
@@ -198,11 +199,11 @@ Jekyll uses Liquid to generate the post content within the final page layout str
 GitHub uses Jekyll to power [GitHub Pages][6]. GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.
 
 ###Liquid is Not Programmer-Friendly.###
-
 The short story is liquid is not real code and its not intended to execute real code. The point being you can't do jackshit in liquid that hasn't been allowed explicitly by the implementation. What's more you can only access data-structures that have been explicitly passed to the template.
 
 In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.
 {% include alert info='My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a <i>programmer s</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
+
 ### Static Assets
 Static assets are any file in the root or non-underscored subfolders that are not pages. That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages. Static assets should be used for images, css, and javascript files.
 
@@ -257,7 +258,7 @@ Finally the liquid templates are "rendered", thereby processing any liquid synta
 {% include alert warning='Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. <br>Remember, in Jekyll you are an end-user. Your API has only two components: <br><ul><li> The manner in which you setup your directory.</li> <li> The liquid syntax and variables passed into the liquid templates.</li></ul>' %}
 All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation [here][8]:
 
-##Conclusion
+##**Conclusion**
 I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does. As noted, our main programming constraint is the fact that our API is limited to what is accessible via Liquid and Liquid only.
 
 Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll.

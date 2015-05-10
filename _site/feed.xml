@@ -13,28 +13,22 @@
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#formats&quot;&gt;An introduction about Jekyll&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#formats&quot;&gt;&lt;strong&gt;An introduction about Jekyll&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#what-is-jekyll&quot;&gt;What is Jekyll?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#what-does-jekyll-do&quot;&gt;What does Jekyll do?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#jekyll-is-not-blogging-software&quot;&gt;Jekyll is Not Blogging Software.&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#why-should-i-care&quot;&gt;Why Should I Care?&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#how-jekyll-works&quot;&gt;How Jekyll works&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#how-jekyll-works&quot;&gt;How Jekyll works&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#initial-setup&quot;&gt;Initial Setup&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#jekyll-configuration&quot;&gt;Jekyll Configuration&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#content-in-jekyll&quot;&gt;Content in Jekyll&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#posts-and-pages&quot;&gt;Posts and Pages&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#working-with-posts&quot;&gt;Working With Posts&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#working-with-pages&quot;&gt;Working With Pages&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#content-in-jekyll&quot;&gt;Content in Jekyll&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#posts-and-pages&quot;&gt;Posts and Pages&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#working-with-posts&quot;&gt;Working With Posts&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#working-with-pages&quot;&gt;Working With Pages&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#templates-in-jekyll&quot;&gt;Templates in Jekyll&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#using-liquid-for-templating&quot;&gt;Using Liquid for Templating&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-liquid-for-templating&quot;&gt;&lt;strong&gt;Using Liquid for Templating&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#what-is-liquid&quot;&gt;What is Liquid?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#why-do-we-have-to-use-liquid&quot;&gt;Why Do We Have to Use Liquid?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#liquid-is-not-programmer-friendly&quot;&gt;Liquid is Not Programmer-Friendly.&lt;/a&gt;&lt;/li&gt;
@@ -48,7 +42,7 @@
       &lt;li&gt;&lt;a href=&quot;#how-jekyll-generates-the-final-static-files&quot;&gt;How Jekyll Generates the Final Static Files.&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -69,7 +63,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-    &lt;h2 id=&quot;formats&quot;&gt;An introduction about Jekyll&lt;/h2&gt;
+    &lt;h2 id=&quot;formats&quot;&gt;&lt;strong&gt;An introduction about Jekyll&lt;/strong&gt;&lt;/h2&gt;
     &lt;p&gt;In this part, I will introduction an overview about Jekyll framework. This is a good framework for whom want to create a digital porfolio. &lt;/p&gt;
 
     &lt;h3 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h3&gt;
@@ -83,35 +77,27 @@
     &lt;p&gt;You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags on each request, Jekyll does this once beforehand and caches the entire website in a folder for serving statically.&lt;/p&gt;
 
     &lt;h3 id=&quot;jekyll-is-not-blogging-software&quot;&gt;Jekyll is Not Blogging Software.&lt;/h3&gt;
-
     &lt;blockquote&gt;
       &lt;p&gt;Jekyll is a parsing engine.
-&lt;cite&gt;Jekyll framework&lt;/cite&gt;&lt;/p&gt;
+&lt;cite&gt;Jekyll framework&lt;/cite&gt;
+&lt;em&gt;Jekyll&lt;/em&gt; does not come with any content nor does it have any templates or design elements. This is a common source of confusion when getting started. Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
     &lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;em&gt;Jekyll&lt;/em&gt; does not come with any content nor does it have any templates or design elements. This is a common source of confusion when getting started. Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
 
     &lt;h3 id=&quot;why-should-i-care&quot;&gt;Why Should I Care?&lt;/h3&gt;
     &lt;p&gt;Jekyll is very minimalistic and very efficient. The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server. Traditional dynamic blogs like Wordpress require a database and server-side code. Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.&lt;/p&gt;
 
-    &lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.&lt;/p&gt;
+    &lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
+&amp;gt; Developers like Jekyll because we can write content like we write code:
+&lt;cite&gt;Jekyll framework&lt;/cite&gt;
+    - Ability to write content in markdown or textile in your favorite text-editor.
+    - Ability to write and preview your content via localhost.
+    - No internet connection required.
+    - Ability to publish via git.
+    - Ability to host your blog on a static web-server.
+    - Ability to host freely on GitHub Pages.
+    - No database required.&lt;/p&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;Developers like Jekyll because we can write content like we write code:
-&lt;cite&gt;Jekyll framework&lt;/cite&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;Ability to write content in markdown or textile in your favorite text-editor.&lt;/li&gt;
-      &lt;li&gt;Ability to write and preview your content via localhost.&lt;/li&gt;
-      &lt;li&gt;No internet connection required.&lt;/li&gt;
-      &lt;li&gt;Ability to publish via git.&lt;/li&gt;
-      &lt;li&gt;Ability to host your blog on a static web-server.&lt;/li&gt;
-      &lt;li&gt;Ability to host freely on GitHub Pages.&lt;/li&gt;
-      &lt;li&gt;No database required.&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;h2 id=&quot;how-jekyll-works&quot;&gt;How Jekyll works&lt;/h2&gt;
+    &lt;h3 id=&quot;how-jekyll-works&quot;&gt;How Jekyll works&lt;/h3&gt;
 
     &lt;div class=&quot;alert-box info radius&quot;&gt;&lt;ins&gt;&lt;b&gt;Heads up!&lt;/b&gt;&lt;/ins&gt;&lt;br /&gt;The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.&lt;/div&gt;
 
@@ -157,13 +143,13 @@ Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
     &lt;h3 id=&quot;jekyll-configuration&quot;&gt;Jekyll Configuration&lt;/h3&gt;
     &lt;p&gt;Jekyll supports various configuration options that are fully outlined &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;here:&lt;/a&gt;&lt;/p&gt;
 
-    &lt;h2 id=&quot;content-in-jekyll&quot;&gt;Content in Jekyll&lt;/h2&gt;
+    &lt;h3 id=&quot;content-in-jekyll&quot;&gt;Content in Jekyll&lt;/h3&gt;
     &lt;p&gt;Content in Jekyll is either a post or a page. These content “objects” get inserted into one or more templates to build the final output for its respective static-page.&lt;/p&gt;
 
     &lt;h3 id=&quot;posts-and-pages&quot;&gt;Posts and Pages&lt;/h3&gt;
     &lt;p&gt;Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax. Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.&lt;/p&gt;
 
-    &lt;h4 id=&quot;working-with-posts&quot;&gt;Working With Posts&lt;/h4&gt;
+    &lt;h3 id=&quot;working-with-posts&quot;&gt;Working With Posts&lt;/h3&gt;
     &lt;p&gt;&lt;strong&gt;Creating a Post:&lt;/strong&gt; Posts are created by properly formatting a file and placing it the _posts folder.&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;Formatting:&lt;/strong&gt; A post must have a valid filename in the form &lt;code&gt;YEAR-MONTH-DATE-title.MARKUP&lt;/code&gt; and be placed in the &lt;code&gt;_posts&lt;/code&gt; directory. If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file. Additionally, each file must have YAML Front-Matter prepended to its content. YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.&lt;/p&gt;
@@ -184,7 +170,7 @@ Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
 
     &lt;p&gt;This defines the category hierarchy “lessons/beginner”. Note this is one category node in Jekyll. You won’t find “lessons” and “beginner” as two separate categories unless you define them elsewhere as singular categories.&lt;/p&gt;
 
-    &lt;h4 id=&quot;working-with-pages&quot;&gt;Working With Pages&lt;/h4&gt;
+    &lt;h3 id=&quot;working-with-pages&quot;&gt;Working With Pages&lt;/h3&gt;
     &lt;p&gt;&lt;strong&gt;Creating a Page:&lt;/strong&gt; Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do not start with an underscore.&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;: In order to register as a Jekyll page the file must contain YAML Front-Matter. Registering a page means &lt;strong&gt;1)&lt;/strong&gt; that Jekyll will process the page and &lt;strong&gt;2)&lt;/strong&gt; that the page object will be available in the site.pages array for inclusion into your templates.&lt;/p&gt;
@@ -202,11 +188,16 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 
     &lt;p&gt;This page will be available at &lt;code&gt;http://yourdomain.com/people/DuyBui/essay.html&lt;/code&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;
-    - &lt;strong&gt;index.html&lt;/strong&gt;: You will always want to define the root index.html page as this will display on your root URL.
-    - &lt;strong&gt;404.html&lt;/strong&gt;: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
-    - &lt;strong&gt;sitemap.html&lt;/strong&gt;: Generating a sitemap is good practice for SEO.
-    - &lt;strong&gt;about.html&lt;/strong&gt;: A nice about page is easy to do and gives the human perspective to your website.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;- **index.html**: You will always want to define the root index.html page as this will display on your root URL.
+
+- **404.html**: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
+
+- **sitemap.html**: Generating a sitemap is good practice for SEO.
+
+- **about.html**: A nice about page is easy to do and gives the human perspective to your website.
+&lt;/code&gt;&lt;/pre&gt;
 
     &lt;h3 id=&quot;templates-in-jekyll&quot;&gt;Templates in Jekyll&lt;/h3&gt;
     &lt;p&gt;Templates are used to contain a page’s or post’s content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.&lt;/p&gt;
@@ -232,7 +223,7 @@ In Jekyll you can define include files by placing them in the &lt;code&gt;_inclu
 
     &lt;p&gt;Any valid template code may be used in includes.&lt;/p&gt;
 
-    &lt;h2 id=&quot;using-liquid-for-templating&quot;&gt;Using Liquid for Templating&lt;/h2&gt;
+    &lt;h2 id=&quot;using-liquid-for-templating&quot;&gt;&lt;strong&gt;Using Liquid for Templating&lt;/strong&gt;&lt;/h2&gt;
     &lt;p&gt;Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.&lt;/p&gt;
 
     &lt;h3 id=&quot;what-is-liquid&quot;&gt;What is Liquid?&lt;/h3&gt;
@@ -244,7 +235,6 @@ In Jekyll you can define include files by placing them in the &lt;code&gt;_inclu
     &lt;p&gt;GitHub uses Jekyll to power &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.&lt;/p&gt;
 
     &lt;h3 id=&quot;liquid-is-not-programmer-friendly&quot;&gt;Liquid is Not Programmer-Friendly.&lt;/h3&gt;
-
     &lt;p&gt;The short story is liquid is not real code and its not intended to execute real code. The point being you can’t do jackshit in liquid that hasn’t been allowed explicitly by the implementation. What’s more you can only access data-structures that have been explicitly passed to the template.&lt;/p&gt;
 
     &lt;p&gt;In Jekyll’s case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.&lt;/p&gt;
@@ -308,7 +298,7 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
 
     &lt;p&gt;All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation &lt;a href=&quot;http://jekyllrb.com/docs/variables/&quot;&gt;here&lt;/a&gt;:&lt;/p&gt;
 
-    &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+    &lt;h2 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
     &lt;p&gt;I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does. As noted, our main programming constraint is the fact that our API is limited to what is accessible via Liquid and Liquid only.&lt;/p&gt;
 
     &lt;p&gt;Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll.&lt;/p&gt;
