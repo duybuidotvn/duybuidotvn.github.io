@@ -26,7 +26,7 @@ header: no
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include improve_content.html %}
 
-## **An introduction about Jekyll** {#formats}
+## **An introduction about Jekyll**
 In this part, I will introduction an overview about Jekyll framework. This is a good framework for whom want to create a digital porfolio. 
 
 ### What is Jekyll?
