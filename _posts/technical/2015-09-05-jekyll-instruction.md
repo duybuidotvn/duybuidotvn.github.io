@@ -199,203 +199,67 @@ In Jekyll's case it is not possible to alter what is passed to Liquid without ha
 
 {% include alert info='My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a <i>programmer s</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
 
-## Static Assets
-
+### Static Assets
 Static assets are any file in the root or non-underscored subfolders that are not pages. That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages. Static assets should be used for images, css, and javascript files.
 
-## Images: Title, Thumbnails, Homepage   {#images}
+### How Jekyll Parses Files
+Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.
+    - **Content parsing:** This is done with textile or markdown.
+    - **Template parsing:** This is done with the liquid templating language.
+And thus there are two main types of file formats needed for this parsing.
+    - **Post and Page files:** All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.
+    - **Template files:** These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.
 
-There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}/headers/). 
+####Arbitrary files and folders.
+Files that are not valid pages are treated as static content and pass through Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.
 
+####Formatting Files for Parsing.
 
-### Title Images
+We've outlined the need for valid formatting using YAML Front Matter. Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty. This is the only way Jekyll knows you want the file processed.
 
-~~~
-image:
-    title: image.jpg
-~~~
+YAML Front Matter must be prepended to the top of template/post/page files:
+`---
+layout: post
+category : pages
+tags : [how-to, jekyll]
+---`
+Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block. The data inside the block must be valid YAML.
 
+Configuration parameters for YAML Front-Matter is outlined here: [A comprehensive explanation of YAML Front Matter] [7]
 
-### Thumbnails
+####Defining Layouts for Posts and Templates Parsing.
+The layout parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into. If a template file specifies a layout parameter, it is effectively being used as a sub-template. That is to say loading a post file into a template file that refers to another template file will work in the way you'd expect; as a nested sub-template.
 
-Thumbnails are used on archive pages like the [blog index][2]. They have a size of 150x150 pixels. Define them in front matter like this:
+###How Jekyll Generates the Final Static Files.
+Ultimately, Jekyll's job is to generate a static representation of your website. The following is an outline of how that's done:
+**Jekyll collects data.**
+Jekyll scans the posts directory and collects all posts files as post objects. It then scans the layout assets and collects those and finally scans other directories in search of pages.
 
-~~~
-image:
-    thumb: thumbnail_image.jpg
-~~~
+**Jekyll computes data.**
+Jekyll takes these objects, computes metadata (permalinks, tags, categories, titles, dates) from them and constructs one big site object that holds all the posts, pages, layouts, and respective metadata. At this stage your site is one big computed ruby object.
 
+**Jekyll liquifies posts and templates.**
+Next jekyll loops through each post file and converts (through markdown or textile) and liquifies the post inside of its respective layout(s). Once the post is parsed and liquified inside the the proper layout structure, the layout itself is "liquified".
+Liquification is defined as follows: Jekyll initiates a Liquid template, and passes a simpler hash representation of the ruby site object as well as a simpler hash representation of the ruby post object. These simplified data structures are what you have access to in the templates.
 
-### Homepage Image
+**Jekyll generates output.**
+Finally the liquid templates are "rendered", thereby processing any liquid syntax provided in the templates and saving the final, static representation of the file.
 
-If you want to feature an article on the homepage with a huge image, than use the homepage image with a width of 970 pixels. If no homepage image is defined *Feeling Responsive* writes instead *New Blog Articles* over the blog entries. Define the homepage image like this:
+{% include alert warning='Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you'll iterate through and format using the Liquid tags and filters in order to render it onto a given page.
 
-~~~
-image:
-    homepage: header_homepage_13.jpg
-~~~
+Remember, in Jekyll you are an end-user. Your API has only two components:
+<ul>
+<li>The manner in which you setup your directory.</li>
+<li>The liquid syntax and variables passed into the liquid templates.</li> </ul>' %}
 
+All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation [here][8]:
 
+##Conclusion
+I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does. As noted, our main programming constraint is the fact that our API is limited to what is accessible via Liquid and Liquid only.
 
-### Captions with URL
+Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll.
 
-Sometimes you want to give credit to the creator of your images, maybe with a link. Especially when you use Creative Commons-images like I do for this website. Just add the following front matter and *Feeling Responsive* does the rest:
-
-~~~
-image:
-    title: header_image.jpg
-    caption: Image by Phlow
-    caption_url: "http://phlow.de/"
-~~~
-
-### Define all images for an article
-
-~~~
-image:
-    title: title_image.jpg
-    thumb: thumbnail_image.jpg
-    homepage: header_homepage_13.jpg
-    caption: Image by Phlow
-    caption_url: "http://phlow.de/"
-~~~
-
-
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-
-
-## Create a Table of Content
-{: .t60}
-
-With the Kramdown parser for Markdown you can render a table of contents for your documents. Just insert the following HTML in your post before the actual content. More information on [»Automatic ›Table of Contents‹ Generation«][1].
-
-### Bare Bones Version
-{% highlight html %}
-### Table of Contents
-*  Auto generated table of contents
-{:toc}
-{% endhighlight %}
-
-### Foundation panel version
-
-{% highlight html %}
-<div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-</div>
-{% endhighlight %}
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-
-## Breadcrumbs
-
-To turn on breadcrumbs, just use...
-
-{% highlight html %}
-breadcrumb: true
-{% endhighlight %}
-
-
-## Includes
-{: .t60}
-
-Includes can be very helpful to spice up your content. You can use includes in your Markdown-files with ease: Just call them with some Liquid code.
-
-### list-posts.html
-
-The `list-posts.html`-include is a loop to list posts. It's a helper to add some additional content fast and easy. You can use it in individual posts for example. Which parameters you use, depends on you.
-
-Possible parameter for the loop:
-
-- entries › define the number of entries to show
-- offset › define the offset (number of entries to skip before displaying the first one)
-- category › define **only one** category to display according entries
-
-The loop looks when you use all parameters. Single parameters are possible of course.
-
-~~~
-{% raw %}{% include list-posts.html entries='3' offset='1' category='design' %}{% endraw %}
-~~~
-
-### next-previous-post-in-category.html
-
-This include creates a next/previous link to a post of the same category using the first categories-variable in front matter.
-
-~~~
-{% raw %}{% include next-previous-post-in-category.html %}{% endraw %}
-~~~
-
-
-### improve_content.html
-
-If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](http://ben.balter.com/).
-
-~~~
-{% raw %}{% include improve_content.html %}{% endraw %}
-~~~
-
-
-### list-collection.html
-
-This include lets you loop through a collection to list all entries in that collection. If you set »published: false« in front matter of a collection page the page gots filtered out via unless. The following example loops through a collection called *wordpress*.
-
-~~~
-{% raw %}{% include list-collection.html collection='wordpress' %}{% endraw %}
-~~~
-
-
-### alert – Embed an alert in your content
-
-This include lets you easily display an alert. To use the include no `.html` ending is necessary. You can use five different kinds of alerts: `warning`, `info`, `success`, `alert` and `text`. 
-
-~~~
-{% raw %}{% include alert warning='This is a warning.' %}
-{% include alert info='An info box.' %}
-{% include alert success='Yeah, you made it!' %}
-{% include alert alert='Danger!' %}
-{% include alert terminal='jekyll -serve' %}
-{% include alert text='Just a note!' %}{% endraw %}
-~~~
-
-{% include alert warning='This is a warning.' %}
-{% include alert info='My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a <i>programmer s</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
-{% include alert info='a test' %}
-{% include alert success='Yeah, you made it!' %}
-{% include alert alert='Danger!' %}
-{% include alert terminal='jekyll -serve' %}
-{% include alert text='Just a note!' %}
-
-You can even use `<html>`-tags inside the alert. Beware: Use " and ' properly.
-
-~~~
-{% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}{% endraw %}
-~~~
-
-{% include alert info='<b>Heads up!</b> The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
-
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-
-
-## Javascript/Foundation modules
-
-*Feeling Responsive* uses the foundation framework and some of its javascript components. I reduced the modules, to decrease page load and make the theme faster.
-
-I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. These modules are currently used by the theme and included in `javascript.min.js`. There is also a non-minified version, if you want to take a closer look: `javascript.js`.
-
-~~~
-/foundation/bower_components/foundation/js/vendor/jquery.js'
-/foundation/bower_components/foundation/js/vendor/fastclick.js'
-/foundation/bower_components/foundation/js/foundation.accordion.js'
-/foundation/bower_components/foundation/js/foundation.clearing.js'
-/foundation/bower_components/foundation/js/foundation.dropdown.js'
-/foundation/bower_components/foundation/js/foundation.equalizer.js'
-/foundation/bower_components/foundation/js/foundation.magellan.js'
-/foundation/bower_components/foundation/js/foundation.topbar.js'
-/foundation/js/jquery.backstretch.js'
-~~~
+Thank you for reading this far and waiting for next post.
 
 {% include improve_content.html %}
 
@@ -408,7 +272,7 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
  [4]: https://github.com/Shopify/liquid/
  [5]: http://www.shopify.com/
  [6]: https://pages.github.com/
- [7]: #
- [8]: #
+ [7]: http://jekyllrb.com/docs/frontmatter/
+ [8]: http://jekyllrb.com/docs/variables/
  [9]: #
  [10]: #
