@@ -152,13 +152,9 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 
 **Recommended Pages**
-
     - **index.html**: You will always want to define the root index.html page as this will display on your root URL.
-
     - **404.html**: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
-
     - **sitemap.html**: Generating a sitemap is good practice for SEO.
-
     - **about.html**: A nice about page is easy to do and gives the human perspective to your website.
 
 ### Templates in Jekyll
