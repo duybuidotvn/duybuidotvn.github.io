@@ -181,7 +181,6 @@ Sub-templates are exactly templates with the only difference being they define a
 
 **Includes**
 In Jekyll you can define include files by placing them in the `_includes` folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.
-
 Any valid template code may be used in includes.
 
 ## **Using Liquid for Templating**
@@ -220,13 +219,11 @@ Files that are not valid pages are treated as static content and pass through Je
 We've outlined the need for valid formatting using YAML Front Matter. Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty. This is the only way Jekyll knows you want the file processed.
 
 YAML Front Matter must be prepended to the top of template/post/page files:
-~~~
----
+`---
 layout: post
 category : pages
 tags : [how-to, jekyll]
----
-~~~
+---`
 Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block. The data inside the block must be valid YAML.
 
 Configuration parameters for YAML Front-Matter is outlined here: [A comprehensive explanation of YAML Front Matter] [7]
@@ -249,7 +246,7 @@ Liquification is defined as follows: Jekyll initiates a Liquid template, and pas
 **Jekyll generates output.**
 Finally the liquid templates are "rendered", thereby processing any liquid syntax provided in the templates and saving the final, static representation of the file.
 
-{% include alert warning='Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. <br>Remember, in Jekyll you are an end-user. Your API has only two components: <br><ul><li> The manner in which you setup your directory.</li> <li> The liquid syntax and variables passed into the liquid templates.</li></ul>' %}
+{% include alert warning='<b><ins>Notes:</ins></b><br>Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. <br>Remember, in Jekyll you are an end-user. Your API has only two components: <br><ul><li> The manner in which you setup your directory.</li> <li> The liquid syntax and variables passed into the liquid templates.</li></ul>' %}
 All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation [here][8]:
 
 ##**Conclusion**
