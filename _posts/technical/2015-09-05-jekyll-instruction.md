@@ -158,7 +158,7 @@ This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
     - sitemap.html: Generating a sitemap is good practice for SEO.
     - about.html: A nice about page is easy to do and gives the human perspective to your website.
 
-### Templates in Jekyll
+## **Templates in Jekyll**
 Templates are used to contain a page's or post's content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.
 
 **Create a Template:** Templates are created by properly formatting a file and placing it in the `_layouts` directory.
@@ -183,7 +183,7 @@ Sub-templates are exactly templates with the only difference being they define a
 In Jekyll you can define include files by placing them in the `_includes` folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.
 Any valid template code may be used in includes.
 
-### **Using Liquid for Templating**
+### Using Liquid for Templating
 Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.
 
 ###What is Liquid?###
