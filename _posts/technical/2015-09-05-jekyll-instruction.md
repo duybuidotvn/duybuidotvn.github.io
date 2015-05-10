@@ -105,7 +105,7 @@ Jekyll expects your website directory to be laid out like so:
 ### Jekyll Configuration 
 Jekyll supports various configuration options that are fully outlined [here:][3]
 
-### Content in Jekyll
+## **Content in Jekyll**
 Content in Jekyll is either a post or a page. These content "objects" get inserted into one or more templates to build the final output for its respective static-page.
 
 ###Posts and Pages
