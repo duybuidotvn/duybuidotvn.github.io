@@ -114,26 +114,20 @@ Jekyll supports various configuration options that are fully outlined [here:][3]
 Content in Jekyll is either a post or a page. These content "objects" get inserted into one or more templates to build the final output for its respective static-page.
 
 ###Posts and Pages
-
 Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax. Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.
 
 ####Working With Posts
-**Creating a Post**
-Posts are created by properly formatting a file and placing it the _posts folder.
+**Creating a Post:** Posts are created by properly formatting a file and placing it the _posts folder.
 
-**Formatting**
-A post must have a valid filename in the form YEAR-MONTH-DATE-title.MARKUP and be placed in the _posts directory. If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file. Additionally, each file must have YAML Front-Matter prepended to its content. YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.
+**Formatting:** A post must have a valid filename in the form `YEAR-MONTH-DATE-title.MARKUP` and be placed in the `_posts` directory. If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file. Additionally, each file must have YAML Front-Matter prepended to its content. YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.
 
-**Order**
-Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy. Only reverse chronological and chronological ordering is supported in Jekyll.
+**Order:** Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy. Only reverse chronological and chronological ordering is supported in Jekyll.
 
 Since the date is hard-coded into the filename format, to change the order, you must change the dates in the filenames.
 
-**Tags**
-Posts can have tags associated with them as part of their meta-data. Tags may be placed on posts by providing them in the post's YAML front matter. You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.
+**Tags:** Posts can have tags associated with them as part of their `meta-data`. Tags may be placed on posts by providing them in the post's YAML front matter. You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.
 
-**Categories**
-Posts may be categorized by providing one or more categories in the YAML front matter. Categories offer more significance over tags in that they can be reflected in the URL path to the given post. Note categories in Jekyll work in a specific way. If you define more than one category you are defining a category hierarchy "set". Example:
+**Categories:** Posts may be categorized by providing one or more categories in the YAML front matter. Categories offer more significance over tags in that they can be reflected in the URL path to the given post. Note categories in Jekyll work in a specific way. If you define more than one category you are defining a category hierarchy "set". Example:
 
 ~~~
 1.    ---
@@ -145,11 +139,9 @@ Posts may be categorized by providing one or more categories in the YAML front m
 This defines the category hierarchy "lessons/beginner". Note this is one category node in Jekyll. You won't find "lessons" and "beginner" as two separate categories unless you define them elsewhere as singular categories.
 
 ####Working With Pages
-**Creating a Page**
-Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do not start with an underscore.
+**Creating a Page:** Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do not start with an underscore.
 
-**Formatting**
-In order to register as a Jekyll page the file must contain YAML Front-Matter. Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the site.pages array for inclusion into your templates.
+**Formatting**: In order to register as a Jekyll page the file must contain YAML Front-Matter. Registering a page means **1)** that Jekyll will process the page and **2)** that the page object will be available in the site.pages array for inclusion into your templates.
 
 **Categories and Tags**
 Pages do not compute categories nor tags so defining them will have no effect.
@@ -157,11 +149,11 @@ Pages do not compute categories nor tags so defining them will have no effect.
 **Sub-Directories**
 If pages are defined in sub-directories, the path to the page will be reflected in the url. Example:
 
-`
+~~~
 ├── people
 |     ├── DuyBui
 |            └──  eassy.html
-`
+~~~
 
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 
@@ -174,14 +166,11 @@ This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 ### Templates in Jekyll
 Templates are used to contain a page's or post's content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.
 
-**Create a Template**
-Templates are created by properly formatting a file and placing it in the `_layouts` directory.
+**Create a Template:** Templates are created by properly formatting a file and placing it in the `_layouts` directory.
 
-**Formatting** 
-Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site's data.
+**Formatting:** Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site's data.
 
-**Rending Page/Post Content in a Template**
-There is a special variable in all templates named : `content`. The content variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:
+**Rending Page/Post Content in a Template:** There is a special variable in all templates named : `content`. The content variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:
 
 ~~~
 <body>
