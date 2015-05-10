@@ -197,7 +197,7 @@ The short story is liquid is not real code and its not intended to execute real 
 
 In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.
 
-{% include alert info='My personal stance is to not invest time trying to hack liquid. It's really unnecessary from a <i>programmer's</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I've built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
+
 
 ## Static Assets
 
