@@ -153,6 +153,7 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 
 **Recommended Pages**
+
     - index.html: You will always want to define the root index.html page as this will display on your root URL.
     - 404.html: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
     - sitemap.html: Generating a sitemap is good practice for SEO.
@@ -205,15 +206,12 @@ Static assets are any file in the root or non-underscored subfolders that are no
 
 ### How Jekyll Parses Files
 Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.
-    
-    - Content parsing: This is done with textile or markdown.
-    
-    - Template parsing: This is done with the liquid templating language.
 
+    - Content parsing: This is done with textile or markdown.
+    - Template parsing: This is done with the liquid templating language.
 And thus there are two main types of file formats needed for this parsing.
-    
+
     - Post and Page files: All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.
-    
     - Template files: These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.
 
 ####Arbitrary files and folders.
