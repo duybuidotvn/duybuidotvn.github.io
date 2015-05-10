@@ -172,15 +172,6 @@ Templates are used to contain a page's or post's content. All templates have acc
 
 **Rending Page/Post Content in a Template:** There is a special variable in all templates named : `content`. The content variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:
 
-~~~
-<body>
-  <div id="sidebar"> ... </div>
-  <div id="main">
-    {{content}}
-  </div>
-</body>
-~~~
-
 **Sub-Templates**
 Sub-templates are exactly templates with the only difference being they define another "root" layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.
 
