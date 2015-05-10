@@ -59,7 +59,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
     - Ability to host freely on GitHub Pages.
     - No database required.
 
-### How Jekyll works
+## **How Jekyll works**
 {% include alert info='<ins><b>Heads up!</b></ins><br>The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
 
 ### Initial Setup
@@ -183,7 +183,7 @@ Sub-templates are exactly templates with the only difference being they define a
 In Jekyll you can define include files by placing them in the `_includes` folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.
 Any valid template code may be used in includes.
 
-## **Using Liquid for Templating**
+### **Using Liquid for Templating**
 Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.
 
 ###What is Liquid?###
