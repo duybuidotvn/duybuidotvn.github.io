@@ -65,8 +65,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 
 ## How Jekyll works
 
-{% raw %}{% include alert info='<b>Heads up!</b> The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. 
-This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}{% endraw %}
+
 
 
 ### Initial Setup
@@ -375,8 +374,7 @@ This include lets you easily display an alert. To use the include no `.html` end
 ~~~
 
 {% include alert warning='This is a warning.' %}
-{% include alert info='<b>Heads up!</b> The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. 
-This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
+{% include alert info='<b>Heads up!</b> The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
 {% include alert success='Yeah, you made it!' %}
 {% include alert alert='Danger!' %}
 {% include alert terminal='jekyll -serve' %}
@@ -388,7 +386,7 @@ You can even use `<html>`-tags inside the alert. Beware: Use " and ' properly.
 {% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}{% endraw %}
 ~~~
 
-{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}
+{% include alert info='<b>Heads up!</b> The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
