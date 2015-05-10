@@ -219,11 +219,15 @@ Files that are not valid pages are treated as static content and pass through Je
 We've outlined the need for valid formatting using YAML Front Matter. Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty. This is the only way Jekyll knows you want the file processed.
 
 YAML Front Matter must be prepended to the top of template/post/page files:
-`---
+
+~~~
+---
 layout: post
 category : pages
 tags : [how-to, jekyll]
----`
+---
+~~~
+
 Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block. The data inside the block must be valid YAML.
 
 Configuration parameters for YAML Front-Matter is outlined here: [A comprehensive explanation of YAML Front Matter] [7]
