@@ -171,6 +171,14 @@ Templates are used to contain a page's or post's content. All templates have acc
 **Formatting:** Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site's data.
 
 **Rending Page/Post Content in a Template:** There is a special variable in all templates named : `content`. The content variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:
+{% highlight html %}
+<body>
+  <div id="sidebar"> ... </div>
+  <div id="main">
+    {{content}}
+  </div>
+</body>
+{% endhighlight %}
 
 **Sub-Templates**
 Sub-templates are exactly templates with the only difference being they define another "root" layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.
@@ -196,33 +204,36 @@ GitHub uses Jekyll to power [GitHub Pages][6]. GitHub cannot afford to run arbit
 The short story is liquid is not real code and its not intended to execute real code. The point being you can't do jackshit in liquid that hasn't been allowed explicitly by the implementation. What's more you can only access data-structures that have been explicitly passed to the template.
 
 In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.
-
 {% include alert info='My personal stance is to not invest time trying to hack liquid. It is really unnecessary from a <i>programmer s</i> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I have built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a> which is now abandoned =/. You should use <a href="http://ruhoh.com">http://ruhoh.com</a> instead =D.' %}
-
 ### Static Assets
 Static assets are any file in the root or non-underscored subfolders that are not pages. That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages. Static assets should be used for images, css, and javascript files.
 
 ### How Jekyll Parses Files
 Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.
+
     - **Content parsing:** This is done with textile or markdown.
     - **Template parsing:** This is done with the liquid templating language.
+
 And thus there are two main types of file formats needed for this parsing.
+
     - **Post and Page files:** All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.
+
     - **Template files:** These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.
 
 ####Arbitrary files and folders.
 Files that are not valid pages are treated as static content and pass through Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.
 
 ####Formatting Files for Parsing.
-
 We've outlined the need for valid formatting using YAML Front Matter. Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty. This is the only way Jekyll knows you want the file processed.
 
 YAML Front Matter must be prepended to the top of template/post/page files:
-`---
+~~~
+---
 layout: post
 category : pages
 tags : [how-to, jekyll]
----`
+---
+~~~
 Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block. The data inside the block must be valid YAML.
 
 Configuration parameters for YAML Front-Matter is outlined here: [A comprehensive explanation of YAML Front Matter] [7]
@@ -245,8 +256,7 @@ Liquification is defined as follows: Jekyll initiates a Liquid template, and pas
 **Jekyll generates output.**
 Finally the liquid templates are "rendered", thereby processing any liquid syntax provided in the templates and saving the final, static representation of the file.
 
-{% include alert warning='Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. <br>Remember, in Jekyll you are an end-user. Your API has only two components: <br><ul><li>1) The manner in which you setup your directory.</li> <li>2) The liquid syntax and variables passed into the liquid templates.</li></ul>' %}
-
+{% include alert warning='Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. <br>Remember, in Jekyll you are an end-user. Your API has only two components: <br><ul><li> The manner in which you setup your directory.</li> <li> The liquid syntax and variables passed into the liquid templates.</li></ul>' %}
 All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation [here][8]:
 
 ##Conclusion
