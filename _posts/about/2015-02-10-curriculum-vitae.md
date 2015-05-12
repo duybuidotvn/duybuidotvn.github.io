@@ -1,5 +1,12 @@
 ---
 layout: page
+title: ""
+categories:
+    - about
+tags:
+    - design
+    - background color
+    - header
 header: no
 ---
 <center>
