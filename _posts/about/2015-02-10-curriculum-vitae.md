@@ -39,13 +39,16 @@ header:
 - **From Apr. 2013 to Sep.2015:** Lecturer and Research Assistant at Faculty of Informatics, Pham Van Dong University.
 	- Teaching courses: Algorithms and Data Structure, Basic Programming, and Discreate Maths. 
 	- Supervisor in Research of Students: Build IT-PDU portal by Liferay Portal, Teaching online web application by MEAN stack framework, Proposal Job Portal Development. 
-	- Coach of Pham Van Dong University’s team at ACM/ICPC & Student Informatics Olympic contest in 2 years.  
+	- Coach of Pham Van Dong University’s team at ACM/ICPC & Student Informatics Olympic contest in 2 years. 
+
 ###**COMPUTER SKILLS**
 - **Languages Programming:** C/C++, Java Script, CSS, HTML5, Latex. 
 - **Software: ** BlockCode, Ecliipse, Sublime Text, CMDer, Github, Smardraw, TexMaker.
+
 ###**Activities**
 -	Football, basketball, table-tennes, billard.
-- 	Volunteer of Enviroment and Social at Quang Ngai city. 
+- 	Volunteer of Enviroment and Social at Quang Ngai city.
+ 
 ###**REFERENCES**
 -	Phuoc Pham, Associate Professor, Rector at Pham Van Dong University.
 	- Email: pphuocpham@yahoo.com 
