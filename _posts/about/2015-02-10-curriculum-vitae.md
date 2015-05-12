@@ -1,12 +1,7 @@
 ---
-layout: page
+layout: page-fullwidth
 title: ""
-categories:
-    - about
-tags:
-    - design
-    - background color
-    - header
+permalink: "/about/curriculum-vitae/"
 header: no
 ---
 <center>
