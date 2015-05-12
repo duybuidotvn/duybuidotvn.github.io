@@ -51,8 +51,6 @@ Jekyll is very minimalistic and very efficient. The most important thing to real
 Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
 > Developers like Jekyll because we can write content like we write code:
 <cite>Jekyll framework</cite>
--   Ability to write content in markdown or textile in your favorite text-editor.
--   Ability to write and preview your content via localhost.
 
 - Ability to write content in markdown or textile in your favorite text-editor.
 - Ability to write and preview your content via localhost.
@@ -156,10 +154,11 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 
 **Recommended Pages**
-- index.html: You will always want to define the root index.html page as this will display on your root URL.
-- 404.html: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
-- sitemap.html: Generating a sitemap is good practice for SEO.
-- about.html: A nice about page is easy to do and gives the human perspective to your website.
+
+-   index.html: You will always want to define the root index.html page as this will display on your root URL.
+-   404.html: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
+-   sitemap.html: Generating a sitemap is good practice for SEO.
+-   about.html: A nice about page is easy to do and gives the human perspective to your website.
 
 ## **Templates in Jekyll**
 Templates are used to contain a page's or post's content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.
