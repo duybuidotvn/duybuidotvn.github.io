@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-permalink: "/curriculum-vitae/"
+permalink: "/about/curriculum-vitae/"
 header: no
 ---
 <center>

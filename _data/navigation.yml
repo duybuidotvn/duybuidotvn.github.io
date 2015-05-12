@@ -7,7 +7,7 @@
   side: left
   dropdown:
   - title: "Curriculum Vitae"
-    url: "/about/curriculum-vitae/"
+    url: "/curriculum-vitae/"
   - title: "Research"
     url: "/about/research/"
   - title: "Teaching"
