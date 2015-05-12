@@ -51,6 +51,9 @@ Jekyll is very minimalistic and very efficient. The most important thing to real
 Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
 > Developers like Jekyll because we can write content like we write code:
 <cite>Jekyll framework</cite>
+-   Ability to write content in markdown or textile in your favorite text-editor.
+-   Ability to write and preview your content via localhost.
+
 - Ability to write content in markdown or textile in your favorite text-editor.
 - Ability to write and preview your content via localhost.
 - No internet connection required.
