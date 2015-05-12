@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "<h1><center><b>CURRICULUM VITAE</b></center></h1>"
 categories:
     - about
 tags:
