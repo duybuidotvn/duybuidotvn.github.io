@@ -24,7 +24,6 @@ header:
 </center>
 
 ###**PROFILE**
-<hr>
 - Birthday: 22 January 1988.
 - Nationality: Vietnam.
 - Gender: Male.
