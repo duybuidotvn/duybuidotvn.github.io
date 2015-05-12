@@ -1,6 +1,6 @@
 ---
 layout: page
-title: no
+title: ""
 categories:
     - about
 tags:
