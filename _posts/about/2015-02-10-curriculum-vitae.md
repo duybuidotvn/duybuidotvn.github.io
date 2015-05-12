@@ -13,7 +13,7 @@ header:
     caption: Step by step built your own experience.
     caption_url: https://duybuivn.github.io/about/curriculum-vitae/
 ---
-<b><h1>CURRICULUM VITAE</h1>></b>
+<h1><center>CURRICULUM VITAE</center></h1>
 <hr>
 
 
