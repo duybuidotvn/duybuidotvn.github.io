@@ -22,4 +22,13 @@ header:
 		<h4>(+84) 948495015</h4>
 	</div>
 </center>
-{% include list-posts.html tag='header' %}
+
+###**PROFILE**
+
+###**EDUCATION**
+
+###**WORKING EXPERIENCE**
+
+###**COMPUTER SKILLS**
+
+###**REFERENCES**
