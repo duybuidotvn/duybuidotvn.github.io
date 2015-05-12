@@ -1,6 +1,8 @@
 ---
 layout: page-fullwidth
-title: ""
+title: "Curriculum Viate"
+subheadline: "Feeling Responsive Theme Changelog"
+teaser: "History and changelog of Feeling Responsive Theme"
 permalink: "/about/curriculum-vitae/"
 header: no
 ---
