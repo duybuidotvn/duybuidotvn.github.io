@@ -33,7 +33,7 @@ header: no
 	- Teaching courses: Computer Concepts, Algorithms and Data Structures, Basic Programming, Discreate Maths. 
 	- Supervisor in Research of Students: Develop IT-PDU portal by Liferay Portal, Develop Web Application for Teaching online by MEAN stack framework.
 	- Coach of Pham Van Dong University’s team at ACM/ICPC & Student Informatics Olympic contest in 2 years. 
-	- Publishing Paper: Using Prezi for Presenting Research Paper - [Slide][2] [Pdf][3], Proposal for Job Portal Development- [Slide][4] [Pdf][5]
+	- Publishing Paper: Using Prezi for Presenting Research Paper and Education - [Slide][2] [Pdf][3], Proposal for Job Portal Development- [Slide][4] [Pdf][5]
 - **From Jan. 2012 to Jan 2013:** Software Developer at KAO Vietnam.
 	- Project: SAP interated web application for Distributor System. 
 - **From Jul. 2011 to Nov. 2011:** Software Engineer Intern at CSC Vietnam.
