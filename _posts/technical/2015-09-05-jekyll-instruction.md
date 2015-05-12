@@ -207,11 +207,11 @@ Static assets are any file in the root or non-underscored subfolders that are no
 
 ### How Jekyll Parses Files
 Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.
+
 -   Content parsing: This is done with textile or markdown.
 -   Template parsing: This is done with the liquid templating language.
 
 And thus there are two main types of file formats needed for this parsing.
-
 -   Post and Page files: All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.
 -   Template files: These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.
 
