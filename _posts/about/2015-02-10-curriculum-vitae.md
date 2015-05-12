@@ -42,11 +42,11 @@ header: no
 
 ###**COMPUTER SKILLS**
 - **Languages Programming:** C/C++, Java Script, CSS, HTML5, Latex. 
-- **Software:** BlockCode, Ecliipse, Sublime Text, CMDer, Github, Smardraw, TexMaker.
+- **Software:** BlockCode, Eclipse, Sublime Text, CMDer, Github, Smartdraw, TexMaker.
 - **Operating System:** Linux, Windows. 
 
 ###**ACTIVITIES**
--	Football, basketball, table-tennes, billard.
+-	Football, basketball, table-tennis, billard.
 - 	Volunteer of Enviroment and Social at Quang Ngai city.
 
 ###**REFERENCES**
