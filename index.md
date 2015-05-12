@@ -12,12 +12,12 @@ widget-1:
     title: "About me & Portfolio"
     url: 'http://duybuivn.github.io/about/'
     text: 'This is a brief introduction <em>about me</em>: <br>1. Who am I? <br>2. My curriculum viate. <br> 3. My research interesting. <br>4. Courses teaching. <br>5. Other: hobbies, volunteer Experiences...etc.'
-    image: unsplash_9-302x182.jpg
+    image: thumb-portfolio-302x182.jpg
 widget-2:
     title: "Photo's diary"
     url: 'https://duybuivn.github.io/photo-diary/'
     text: 'A brief diary by photos of mine. Visited ... '
-    image: unsplash_8-302x182.jpg
+    image: thumb-diary-302x182.jpg
 widget-3:
     title: "F&Q"
     url: 'https://github.com/duybuivn/'
