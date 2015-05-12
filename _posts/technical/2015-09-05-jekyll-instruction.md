@@ -51,13 +51,13 @@ Jekyll is very minimalistic and very efficient. The most important thing to real
 Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
 > Developers like Jekyll because we can write content like we write code:
 <cite>Jekyll framework</cite>
-    - Ability to write content in markdown or textile in your favorite text-editor.
-    - Ability to write and preview your content via localhost.
-    - No internet connection required.
-    - Ability to publish via git.
-    - Ability to host your blog on a static web-server.
-    - Ability to host freely on GitHub Pages.
-    - No database required.
+- Ability to write content in markdown or textile in your favorite text-editor.
+- Ability to write and preview your content via localhost.
+- No internet connection required.
+- Ability to publish via git.
+- Ability to host your blog on a static web-server.
+- Ability to host freely on GitHub Pages.
+- No database required.
 
 ## **How Jekyll works**
 {% include alert info='<ins><b>Heads up!</b></ins><br>The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.' %}
@@ -153,11 +153,10 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 This page will be available at `http://yourdomain.com/people/DuyBui/essay.html`
 
 **Recommended Pages**
-
-    - index.html: You will always want to define the root index.html page as this will display on your root URL.
-    - 404.html: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
-    - sitemap.html: Generating a sitemap is good practice for SEO.
-    - about.html: A nice about page is easy to do and gives the human perspective to your website.
+- index.html: You will always want to define the root index.html page as this will display on your root URL.
+- 404.html: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
+- sitemap.html: Generating a sitemap is good practice for SEO.
+- about.html: A nice about page is easy to do and gives the human perspective to your website.
 
 ## **Templates in Jekyll**
 Templates are used to contain a page's or post's content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.
@@ -206,13 +205,11 @@ Static assets are any file in the root or non-underscored subfolders that are no
 
 ### How Jekyll Parses Files
 Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.
-
-    - Content parsing: This is done with textile or markdown.
-    - Template parsing: This is done with the liquid templating language.
+- Content parsing: This is done with textile or markdown.
+- Template parsing: This is done with the liquid templating language.
 And thus there are two main types of file formats needed for this parsing.
-
-    - Post and Page files: All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.
-    - Template files: These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.
+- Post and Page files: All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.
+- Template files: These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.
 
 ####Arbitrary files and folders.
 Files that are not valid pages are treated as static content and pass through Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.
