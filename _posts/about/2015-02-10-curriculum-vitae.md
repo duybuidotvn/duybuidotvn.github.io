@@ -1,7 +1,6 @@
 ---
 layout: page
-subheadline:  "Headers With Style"
-title:  "No Header"
+title:  "<center><b>CURRICULUM VITAE</b></center>"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This example shows <em>no</em> header at all. Just the navigation."
 categories:
     - about
