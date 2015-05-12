@@ -32,12 +32,24 @@ header:
 - BSc in Information Technology, Major: Computer Science (class 2006-2011) HCMC International University - Vietnam National University (Ranking: top 10%)
 
 ###**WORKING EXPERIENCE**
-- From Jul. 2011 to Nov. 2011: Internship Software Developer at CSC Vietnam.
-	- Detail 1.
-	- Detail 2.
-- From Jan. 2012 to Jan 2013: Software Developer at KAO Vietnam.
-- From Apr. 2013 to Sep.2015: Lecturer and Research Assistant at Faculty of Informatics, Pham Van Dong University.
-
+- **From Jul. 2011 to Nov. 2011:** Internship Software Developer at CSC Vietnam.
+	- Project: Firstdoc.
+- **From Jan. 2012 to Jan 2013:** Software Developer at KAO Vietnam.
+	- Project: 
+- **From Apr. 2013 to Sep.2015:** Lecturer and Research Assistant at Faculty of Informatics, Pham Van Dong University.
+	- Teaching courses: Algorithms and Data Structure, Basic Programming, and Discreate Maths. 
+	- Supervisor in Research of Students: Build IT-PDU portal by Liferay Portal, Teaching online web application by MEAN stack framework, Proposal Job Portal Development. 
+	- Coach of Pham Van Dong University’s team at ACM/ICPC & Student Informatics Olympic contest in 2 years.  
 ###**COMPUTER SKILLS**
-
+- **Languages Programming:** C/C++, Java Script, CSS, HTML5, Latex. 
+- **Software: ** BlockCode, Ecliipse, Sublime Text, CMDer, Github, Smardraw, TexMaker.
+###**Activities**
+-	Football, basketball, table-tennes, billard.
+- 	Volunteer of Enviroment and Social at Quang Ngai city. 
 ###**REFERENCES**
+-	Phuoc Pham, Associate Professor, Rector at Pham Van Dong University.
+	- Email: pphuocpham@yahoo.com 
+-	Hoang Phan, Adjunct Professor at San Jose University. 
+	- Email: pvhoang@hcmiu.edu.vn
+
+<hr>
