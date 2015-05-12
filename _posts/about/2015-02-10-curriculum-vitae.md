@@ -52,11 +52,8 @@ header: no
 	- Email: pvhoang@hcmiu.edu.vn
 
 ####IN PDF: [Duy Bui 's CV][1]
-
-<br>
 <br>
 <hr>
-
  [1]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/CV.pdf
  [2]: https://prezi.com/0xbcmko5rbwc/overview-prezi/
  [3]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/Prezi.pdf
