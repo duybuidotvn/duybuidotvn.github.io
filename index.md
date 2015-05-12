@@ -22,7 +22,7 @@ widget-3:
     title: "F&Q"
     url: 'https://github.com/duybuivn/'
     text: '<em>Jekyll</em> is totally free and licensed under the MIT License. Make it your own and do with it what you want. Grab your copy or clone it at GitHub and start your website with it. Then tell me via Gmail <em>duybui.vn@gmail.com</em>'
-    image: github-303x182.jpg
+    image: thumb-git-302x182.jpg
 ---
 
 
