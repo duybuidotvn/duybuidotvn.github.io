@@ -64,5 +64,5 @@ header: no
  [1]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/CV.pdf
  [2]: https://prezi.com/0xbcmko5rbwc/overview-prezi/
  [3]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/Prezi.pdf
- [4]: https://github.com/duybuivn/duybuivn.github.io/jmp/
+ [4]: https://duybuivn.github.io/jmp/
  [5]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/JMP.pdf
