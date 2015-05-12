@@ -21,9 +21,9 @@ header: no
 </center>
 
 ###**PROFILE**
-- Birthday: 22 January 1988.
-- Nationality: Vietnam.
-- Gender: Male.
+- **Birthday:** 22 January 1988.
+- **Nationality:** Vietnam.
+- **Gender:** Male.
 
 ###**EDUCATION**
 - BSc in Information Technology, Major: Computer Science (class 2006-2011) HCMC International University - Vietnam National University (Ranking: top 10%)
