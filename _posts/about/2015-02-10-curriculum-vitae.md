@@ -7,10 +7,7 @@ tags:
     - design
     - background color
     - header
-header:
-    image_fullwidth: "CV-header.jpg"
-    caption: Step by step built your own experience.
-    caption_url: https://duybuivn.github.io/about/curriculum-vitae/
+header: no
 ---
 <center>
 	<div>
@@ -43,16 +40,18 @@ header:
 
 ###**COMPUTER SKILLS**
 - **Languages Programming:** C/C++, Java Script, CSS, HTML5, Latex. 
-- **Software: ** BlockCode, Ecliipse, Sublime Text, CMDer, Github, Smardraw, TexMaker.
+- **Software:** BlockCode, Ecliipse, Sublime Text, CMDer, Github, Smardraw, TexMaker.
 
-###**Activities**
+###**ACTIVITIES**
 -	Football, basketball, table-tennes, billard.
 - 	Volunteer of Enviroment and Social at Quang Ngai city.
- 
+
 ###**REFERENCES**
 -	Phuoc Pham, Associate Professor, Rector at Pham Van Dong University.
 	- Email: pphuocpham@yahoo.com 
 -	Hoang Phan, Adjunct Professor at San Jose University. 
 	- Email: pvhoang@hcmiu.edu.vn
 
+<br>
+<br>
 <hr>
