@@ -1,7 +1,5 @@
 ---
 layout: page
-title:  "<center><b>CURRICULUM VITAE</b></center>"
-teaser: "<b><hr></b>"
 categories:
     - about
 tags:
@@ -13,7 +11,8 @@ header:
     caption: Step by step built your own experience.
     caption_url: https://duybuivn.github.io/about/curriculum-vitae/
 ---
-<h1><center>CURRICULUM VITAE</center></h1>
+<hr>
+<h1><center><b>CURRICULUM VITAE</b></center></h1>
 <hr>
 
 
