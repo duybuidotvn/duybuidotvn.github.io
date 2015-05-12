@@ -1,7 +1,8 @@
 ---
 layout: page
+show_meta: false
 title: ""
-permalink: "/curriculum-vitae/"
+permalink: "/about/curriculum-vitae/"
 header: no
 ---
 <center>
