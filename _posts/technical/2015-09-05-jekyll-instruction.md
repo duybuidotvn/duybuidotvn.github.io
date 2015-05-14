@@ -10,6 +10,8 @@ tags:
     - Web Framework
     - Jekyll Framework
 header: no
+image:
+	thumb: thumb-jekyll.jpg
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
