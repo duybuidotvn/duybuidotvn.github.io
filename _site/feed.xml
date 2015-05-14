@@ -13,22 +13,26 @@
     &lt;div class=&quot;panel radius&quot;&gt;
       &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#formats&quot;&gt;&lt;strong&gt;An introduction about Jekyll&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#an-introduction-about-jekyll&quot;&gt;&lt;strong&gt;An introduction about Jekyll&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#what-is-jekyll&quot;&gt;What is Jekyll?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#what-does-jekyll-do&quot;&gt;What does Jekyll do?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#jekyll-is-not-blogging-software&quot;&gt;Jekyll is Not Blogging Software.&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#why-should-i-care&quot;&gt;Why Should I Care?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#how-jekyll-works&quot;&gt;How Jekyll works&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-jekyll-works&quot;&gt;&lt;strong&gt;How Jekyll works&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#initial-setup&quot;&gt;Initial Setup&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#jekyll-configuration&quot;&gt;Jekyll Configuration&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#content-in-jekyll&quot;&gt;Content in Jekyll&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#content-in-jekyll&quot;&gt;&lt;strong&gt;Content in Jekyll&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#posts-and-pages&quot;&gt;Posts and Pages&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#working-with-posts&quot;&gt;Working With Posts&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#working-with-pages&quot;&gt;Working With Pages&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#templates-in-jekyll&quot;&gt;Templates in Jekyll&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#using-liquid-for-templating&quot;&gt;&lt;strong&gt;Using Liquid for Templating&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#templates-in-jekyll&quot;&gt;&lt;strong&gt;Templates in Jekyll&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#using-liquid-for-templating&quot;&gt;Using Liquid for Templating&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#what-is-liquid&quot;&gt;What is Liquid?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#why-do-we-have-to-use-liquid&quot;&gt;Why Do We Have to Use Liquid?&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#liquid-is-not-programmer-friendly&quot;&gt;Liquid is Not Programmer-Friendly.&lt;/a&gt;&lt;/li&gt;
@@ -63,7 +67,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-    &lt;h2 id=&quot;formats&quot;&gt;&lt;strong&gt;An introduction about Jekyll&lt;/strong&gt;&lt;/h2&gt;
+    &lt;h2 id=&quot;an-introduction-about-jekyll&quot;&gt;&lt;strong&gt;An introduction about Jekyll&lt;/strong&gt;&lt;/h2&gt;
     &lt;p&gt;In this part, I will introduction an overview about Jekyll framework. This is a good framework for whom want to create a digital porfolio. &lt;/p&gt;
 
     &lt;h3 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h3&gt;
@@ -79,25 +83,32 @@
     &lt;h3 id=&quot;jekyll-is-not-blogging-software&quot;&gt;Jekyll is Not Blogging Software.&lt;/h3&gt;
     &lt;blockquote&gt;
       &lt;p&gt;Jekyll is a parsing engine.
-&lt;cite&gt;Jekyll framework&lt;/cite&gt;
-&lt;em&gt;Jekyll&lt;/em&gt; does not come with any content nor does it have any templates or design elements. This is a common source of confusion when getting started. Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
+&lt;cite&gt;Jekyll framework&lt;/cite&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;em&gt;Jekyll&lt;/em&gt; does not come with any content nor does it have any templates or design elements. This is a common source of confusion when getting started. Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
 
     &lt;h3 id=&quot;why-should-i-care&quot;&gt;Why Should I Care?&lt;/h3&gt;
     &lt;p&gt;Jekyll is very minimalistic and very efficient. The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server. Traditional dynamic blogs like Wordpress require a database and server-side code. Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.&lt;/p&gt;
 
-    &lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.
-&amp;gt; Developers like Jekyll because we can write content like we write code:
-&lt;cite&gt;Jekyll framework&lt;/cite&gt;
-    - Ability to write content in markdown or textile in your favorite text-editor.
-    - Ability to write and preview your content via localhost.
-    - No internet connection required.
-    - Ability to publish via git.
-    - Ability to host your blog on a static web-server.
-    - Ability to host freely on GitHub Pages.
-    - No database required.&lt;/p&gt;
+    &lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.&lt;/p&gt;
 
-    &lt;h3 id=&quot;how-jekyll-works&quot;&gt;How Jekyll works&lt;/h3&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Developers like Jekyll because we can write content like we write code:
+&lt;cite&gt;Jekyll framework&lt;/cite&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Ability to write content in markdown or textile in your favorite text-editor.&lt;/li&gt;
+      &lt;li&gt;Ability to write and preview your content via localhost.&lt;/li&gt;
+      &lt;li&gt;No internet connection required.&lt;/li&gt;
+      &lt;li&gt;Ability to publish via git.&lt;/li&gt;
+      &lt;li&gt;Ability to host your blog on a static web-server.&lt;/li&gt;
+      &lt;li&gt;Ability to host freely on GitHub Pages.&lt;/li&gt;
+      &lt;li&gt;No database required.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2 id=&quot;how-jekyll-works&quot;&gt;&lt;strong&gt;How Jekyll works&lt;/strong&gt;&lt;/h2&gt;
 
     &lt;div class=&quot;alert-box info radius&quot;&gt;&lt;ins&gt;&lt;b&gt;Heads up!&lt;/b&gt;&lt;/ins&gt;&lt;br /&gt;The following is a complete but concise outline of exactly how Jekyll works. Core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the full picture relative to what is going on in Jekyll-world. Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.&lt;/div&gt;
 
@@ -143,7 +154,7 @@ Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
     &lt;h3 id=&quot;jekyll-configuration&quot;&gt;Jekyll Configuration&lt;/h3&gt;
     &lt;p&gt;Jekyll supports various configuration options that are fully outlined &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;here:&lt;/a&gt;&lt;/p&gt;
 
-    &lt;h3 id=&quot;content-in-jekyll&quot;&gt;Content in Jekyll&lt;/h3&gt;
+    &lt;h2 id=&quot;content-in-jekyll&quot;&gt;&lt;strong&gt;Content in Jekyll&lt;/strong&gt;&lt;/h2&gt;
     &lt;p&gt;Content in Jekyll is either a post or a page. These content “objects” get inserted into one or more templates to build the final output for its respective static-page.&lt;/p&gt;
 
     &lt;h3 id=&quot;posts-and-pages&quot;&gt;Posts and Pages&lt;/h3&gt;
@@ -190,16 +201,14 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 
     &lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt;- **index.html**: You will always want to define the root index.html page as this will display on your root URL.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;index.html:&lt;/strong&gt; You will always want to define the root index.html page as this will display on your root URL.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;404.html:&lt;/strong&gt; Create a root 404.html page and GitHub Pages will serve it as your 404 response.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;sitemap.html:&lt;/strong&gt; Generating a sitemap is good practice for SEO.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;about.html:&lt;/strong&gt; A nice about page is easy to do and gives the human perspective to your website.&lt;/li&gt;
+    &lt;/ul&gt;
 
-- **404.html**: Create a root 404.html page and GitHub Pages will serve it as your 404 response.
-
-- **sitemap.html**: Generating a sitemap is good practice for SEO.
-
-- **about.html**: A nice about page is easy to do and gives the human perspective to your website.
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;h3 id=&quot;templates-in-jekyll&quot;&gt;Templates in Jekyll&lt;/h3&gt;
+    &lt;h2 id=&quot;templates-in-jekyll&quot;&gt;&lt;strong&gt;Templates in Jekyll&lt;/strong&gt;&lt;/h2&gt;
     &lt;p&gt;Templates are used to contain a page’s or post’s content. All templates have access to a global site object variable: site as well as a page object variable: page. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;Create a Template:&lt;/strong&gt; Templates are created by properly formatting a file and placing it in the &lt;code&gt;_layouts&lt;/code&gt; directory.&lt;/p&gt;
@@ -219,11 +228,10 @@ If pages are defined in sub-directories, the path to the page will be reflected 
 Sub-templates are exactly templates with the only difference being they define another “root” layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;Includes&lt;/strong&gt;
-In Jekyll you can define include files by placing them in the &lt;code&gt;_includes&lt;/code&gt; folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.&lt;/p&gt;
+In Jekyll you can define include files by placing them in the &lt;code&gt;_includes&lt;/code&gt; folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.
+Any valid template code may be used in includes.&lt;/p&gt;
 
-    &lt;p&gt;Any valid template code may be used in includes.&lt;/p&gt;
-
-    &lt;h2 id=&quot;using-liquid-for-templating&quot;&gt;&lt;strong&gt;Using Liquid for Templating&lt;/strong&gt;&lt;/h2&gt;
+    &lt;h3 id=&quot;using-liquid-for-templating&quot;&gt;Using Liquid for Templating&lt;/h3&gt;
     &lt;p&gt;Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.&lt;/p&gt;
 
     &lt;h3 id=&quot;what-is-liquid&quot;&gt;What is Liquid?&lt;/h3&gt;
@@ -247,16 +255,17 @@ In Jekyll you can define include files by placing them in the &lt;code&gt;_inclu
     &lt;h3 id=&quot;how-jekyll-parses-files&quot;&gt;How Jekyll Parses Files&lt;/h3&gt;
     &lt;p&gt;Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt;- **Content parsing:** This is done with textile or markdown.
-- **Template parsing:** This is done with the liquid templating language.
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Content parsing: This is done with textile or markdown.&lt;/li&gt;
+      &lt;li&gt;Template parsing: This is done with the liquid templating language.&lt;/li&gt;
+    &lt;/ul&gt;
 
     &lt;p&gt;And thus there are two main types of file formats needed for this parsing.&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt;- **Post and Page files:** All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.
-
-- **Template files:** These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Post and Page files: All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.&lt;/li&gt;
+      &lt;li&gt;Template files: These files go in _layouts folder and contain your blogs templates. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.&lt;/li&gt;
+    &lt;/ul&gt;
 
     &lt;h4 id=&quot;arbitrary-files-and-folders&quot;&gt;Arbitrary files and folders.&lt;/h4&gt;
     &lt;p&gt;Files that are not valid pages are treated as static content and pass through Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.&lt;/p&gt;
@@ -264,15 +273,16 @@ In Jekyll you can define include files by placing them in the &lt;code&gt;_inclu
     &lt;h4 id=&quot;formatting-files-for-parsing&quot;&gt;Formatting Files for Parsing.&lt;/h4&gt;
     &lt;p&gt;We’ve outlined the need for valid formatting using YAML Front Matter. Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty. This is the only way Jekyll knows you want the file processed.&lt;/p&gt;
 
-    &lt;p&gt;YAML Front Matter must be prepended to the top of template/post/page files:
-~~~
-—
+    &lt;p&gt;YAML Front Matter must be prepended to the top of template/post/page files:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;---
 layout: post
 category : pages
 tags : [how-to, jekyll]
-—
-~~~
-Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block. The data inside the block must be valid YAML.&lt;/p&gt;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block. The data inside the block must be valid YAML.&lt;/p&gt;
 
     &lt;p&gt;Configuration parameters for YAML Front-Matter is outlined here: &lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;A comprehensive explanation of YAML Front Matter&lt;/a&gt;&lt;/p&gt;
 
@@ -280,8 +290,9 @@ Three hyphens on a new line start the Front-Matter block and three hyphens on a 
     &lt;p&gt;The layout parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into. If a template file specifies a layout parameter, it is effectively being used as a sub-template. That is to say loading a post file into a template file that refers to another template file will work in the way you’d expect; as a nested sub-template.&lt;/p&gt;
 
     &lt;h3 id=&quot;how-jekyll-generates-the-final-static-files&quot;&gt;How Jekyll Generates the Final Static Files.&lt;/h3&gt;
-    &lt;p&gt;Ultimately, Jekyll’s job is to generate a static representation of your website. The following is an outline of how that’s done:
-&lt;strong&gt;Jekyll collects data.&lt;/strong&gt;
+    &lt;p&gt;Ultimately, Jekyll’s job is to generate a static representation of your website. The following is an outline of how that’s done:&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Jekyll collects data.&lt;/strong&gt;
 Jekyll scans the posts directory and collects all posts files as post objects. It then scans the layout assets and collects those and finally scans other directories in search of pages.&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;Jekyll computes data.&lt;/strong&gt;
@@ -294,7 +305,7 @@ Liquification is defined as follows: Jekyll initiates a Liquid template, and pas
     &lt;p&gt;&lt;strong&gt;Jekyll generates output.&lt;/strong&gt;
 Finally the liquid templates are “rendered”, thereby processing any liquid syntax provided in the templates and saving the final, static representation of the file.&lt;/p&gt;
 
-    &lt;div class=&quot;alert-box warning radius&quot;&gt;Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. &lt;br /&gt;Remember, in Jekyll you are an end-user. Your API has only two components: &lt;br /&gt;&lt;ul&gt;&lt;li&gt; The manner in which you setup your directory.&lt;/li&gt; &lt;li&gt; The liquid syntax and variables passed into the liquid templates.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+    &lt;div class=&quot;alert-box warning radius&quot;&gt;&lt;b&gt;&lt;ins&gt;Notes:&lt;/ins&gt;&lt;/b&gt;&lt;br /&gt;Because Jekyll computes the entire site in one fell swoop, each template is given access to a global site hash that contains useful data. It is this data that you will iterate through and format using the Liquid tags and filters in order to render it onto a given page. &lt;br /&gt;Remember, in Jekyll you are an end-user. Your API has only two components: &lt;br /&gt;&lt;ul&gt;&lt;li&gt; The manner in which you setup your directory.&lt;/li&gt; &lt;li&gt; The liquid syntax and variables passed into the liquid templates.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 
     &lt;p&gt;All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation &lt;a href=&quot;http://jekyllrb.com/docs/variables/&quot;&gt;here&lt;/a&gt;:&lt;/p&gt;
 
@@ -327,6 +338,93 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
       </item>
     
       <item>
+        <title></title>
+        <description>&lt;center&gt;
+	&lt;div&gt;
+		&lt;hr /&gt;
+		&lt;h1&gt;&lt;b&gt;CURRICULUM VITAE&lt;/b&gt;&lt;/h1&gt;
+		&lt;hr /&gt;
+		&lt;h3&gt;&lt;b&gt;DUY TA BUI&lt;/b&gt;&lt;/h3&gt;
+		&lt;h4&gt;365 Hung Vuong, Tran Phu ward, Quang Ngai city, Vietnam&lt;/h4&gt;
+		&lt;h4&gt;(+84) 948495015&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;h3 id=&quot;profile&quot;&gt;&lt;strong&gt;PROFILE&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Birthday:&lt;/strong&gt; 22 January 1988.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nationality:&lt;/strong&gt; Vietnam.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gender:&lt;/strong&gt; Male.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;education&quot;&gt;&lt;strong&gt;EDUCATION&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;BSc in Information Technology, Major: Computer Science (class 2006-2011) HCMC International University - Vietnam National University (Ranking: top 10%)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;working-experience&quot;&gt;&lt;strong&gt;WORKING EXPERIENCE&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;From Apr. 2013 to Sep.2015:&lt;/strong&gt; Lecturer and Research Assistant at Faculty of Informatics, Pham Van Dong University.
+    &lt;ul&gt;
+      &lt;li&gt;Teaching courses: Computer Concepts, Algorithms and Data Structures, Basic Programming, Discreate Maths. &lt;/li&gt;
+      &lt;li&gt;Supervisor in Research of Students: Develop IT-PDU portal by Liferay Portal, Develop Web Application for Teaching online by MEAN stack framework.&lt;/li&gt;
+      &lt;li&gt;Coach of Pham Van Dong University’s team at ACM/ICPC &amp;amp; Student Informatics Olympic contest in 2 years. &lt;/li&gt;
+      &lt;li&gt;Publishing Paper: Using Prezi for Presenting Research Paper and Education - &lt;a href=&quot;https://prezi.com/0xbcmko5rbwc/overview-prezi/&quot;&gt;Slide&lt;/a&gt; &lt;a href=&quot;https://github.com/duybuivn/duybuivn.github.io/blob/master/files/Prezi.pdf&quot;&gt;Pdf&lt;/a&gt;, Proposal for Job Portal Development- &lt;a href=&quot;https://duybuivn.github.io/jmp/&quot;&gt;Slide&lt;/a&gt; &lt;a href=&quot;https://github.com/duybuivn/duybuivn.github.io/blob/master/files/JMP.pdf&quot;&gt;Pdf&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;From Jan. 2012 to Jan 2013:&lt;/strong&gt; Software Developer at KAO Vietnam.
+    &lt;ul&gt;
+      &lt;li&gt;Project: SAP interated web application for Distributor System. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;From Jul. 2011 to Nov. 2011:&lt;/strong&gt; Software Engineer Intern at CSC Vietnam.
+    &lt;ul&gt;
+      &lt;li&gt;Project: Firstdoc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;From Sep. 2008 to Sep 2010:&lt;/strong&gt; Leader of several course projects: Sale Car Management, Hotel Management, Register Course Management, RSS feed, Job Matching System. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;computer-skills&quot;&gt;&lt;strong&gt;COMPUTER SKILLS&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Languages Programming:&lt;/strong&gt; C/C++, Java Script, CSS, HTML5, Latex. &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Software:&lt;/strong&gt; BlockCode, Eclipse, Sublime Text, CMDer, Github, Smartdraw, TexMaker.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; Linux, Windows. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;activities&quot;&gt;&lt;strong&gt;ACTIVITIES&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Football, basketball, table-tennis, billard.&lt;/li&gt;
+  &lt;li&gt;Volunteer of Enviroment and Social at Quang Ngai city.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;&lt;strong&gt;REFERENCES&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Phuoc Pham, Associate Professor, Rector at Pham Van Dong University.
+    &lt;ul&gt;
+      &lt;li&gt;Email: pphuocpham@yahoo.com &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hoang Phan, Adjunct Professor at San Jose University. 
+    &lt;ul&gt;
+      &lt;li&gt;Email: pvhoang@hcmiu.edu.vn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;in-pdf-duy-bui-s-cv1&quot;&gt;IN PDF: &lt;a href=&quot;https://github.com/duybuivn/duybuivn.github.io/blob/master/files/CV.pdf&quot;&gt;Duy Bui ‘s CV&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Sun, 10 May 2015 00:00:00 +0700</pubDate>
+        <link>https://duybuivn.github.io/curriculum-vitae/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/curriculum-vitae/</guid>
+      </item>
+    
+      <item>
         <title>No Header</title>
         <description>&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:&lt;/p&gt;
 
@@ -345,8 +443,6 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
 
   
@@ -377,8 +473,6 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
 
   
@@ -414,8 +508,6 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
     
       &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
 
   
 &lt;/ul&gt;
@@ -424,38 +516,6 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0700</pubDate>
         <link>https://duybuivn.github.io/about/header-with-text/</link>
         <guid isPermaLink="true">https://duybuivn.github.io/about/header-with-text/</guid>
-      </item>
-    
-      <item>
-        <title>No Header</title>
-        <description>&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;header: no
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/teaching/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/curriculum-vitae/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/about/curriculum-vitae/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/about/curriculum-vitae/</guid>
       </item>
     
       <item>
