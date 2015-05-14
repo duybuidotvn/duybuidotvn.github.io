@@ -5,8 +5,7 @@ show_meta: false
 title: "About me"
 subheadline: "Introduction"
 teaser: "Hello! My name is Duy Ta Bui. I'm following Master of Science in Informatics at Université Joseph Fourier (USF)"
-header:
-   image_fullwidth: "header_homepage_13.jpg"
+header: no
 permalink: "/about/"
 ---
 
