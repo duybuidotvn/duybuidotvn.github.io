@@ -2,6 +2,7 @@
 layout: page-fullwidth
 title: "An Overview about Jekyll"
 subheadline: "Jekyll Instruction"
+meta_teaser: "Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
 teaser: "The documentation is a work in progress..."
 categories:
     - technical
