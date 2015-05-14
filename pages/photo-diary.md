@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: true
-title: "About me"
+title: "Photo Diary"
 subheadline: "Introduction"
 header:
    image_fullwidth: "header_roadmap_3.jpg"
@@ -15,5 +15,5 @@ To me, the easiest way to save with feelings a momment is photo. Here is a my st
 
 
 
- [1] #
- [2] #
+ [1]: #
+ [2]: #
