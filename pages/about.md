@@ -1,6 +1,6 @@
 ---
 layout: page
-sidebar: right
+sidebar: left
 show_meta: false
 title: "About me"
 subheadline: "Introduction"
