@@ -1,5 +1,6 @@
 ---
 layout: page
+sidebar-info: right
 show_meta: true
 title: "Photo Diary"
 subheadline: "Introduction"
