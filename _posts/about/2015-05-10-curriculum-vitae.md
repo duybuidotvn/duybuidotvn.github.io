@@ -5,8 +5,6 @@ title: ""
 permalink: "/about/curriculum-vitae/"
 header: no
 ---
-<table border="3">
-	<tr>	
 <center>
 	<div>
 		<hr>
@@ -52,9 +50,6 @@ header: no
 	- Email: pphuocpham@yahoo.com 
 -	Hoang Phan, Adjunct Professor at San Jose University. 
 	- Email: pvhoang@hcmiu.edu.vn
-
-	</tr>
-</table>
 
 ####IN PDF: [Duy Bui 's CV][1]
 <br>
