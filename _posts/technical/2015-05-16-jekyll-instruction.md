@@ -10,7 +10,7 @@ tags:
     - Markup Language
 header: no
 image:
-    thumb: thumb-jekyll.jpg
+    thumb: "thumb-jekyll.jpg"
     homepage: homepage_markup_languages.jpg
     caption: Sources from Internet
     caption_url: "http://en.wikipedia.org/wiki/Markup_language/"
