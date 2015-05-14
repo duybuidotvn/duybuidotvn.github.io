@@ -10,17 +10,17 @@ permalink: "/about/"
 ---
 
 <aside>
+	<div class="panel radius">
+		<h3>Sidebar</h3>
+		<p>
+			Full name: Bui Ta Duy
+		</p>
+	</div>
+  <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="">
 	<div class="border-dotted radius b30">
 		<img src="http://placekitten.com/271/270" alt="uh, Placekitten">
 		<p class="text-left">
 			This is an advertisment with a crazy cat! <a href="http://www.sanrio.com/">More cats, please!</a>
-		</p>
-	</div>
-	<div class="panel radius">
-		<h3>Sidebar</h3>
-		<p>
-			Full name: Duy Ta Bui.<br>
-			Birthday: 22/01/2011. <br>
 		</p>
 	</div>
 </aside>
