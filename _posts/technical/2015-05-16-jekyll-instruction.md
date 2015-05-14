@@ -11,7 +11,7 @@ tags:
 header: no
 image:
     thumb: "thumb-jekyll.jpg"
-    homepage: homepage_markup_languages.jpg
+    homepage: homepage_markup_language.jpg
     caption: Sources from Internet
     caption_url: "http://en.wikipedia.org/wiki/Markup_language/"
 ---
