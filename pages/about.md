@@ -10,7 +10,7 @@ permalink: "/about/"
 ---
 
 <div class="row">
-  <div class="large-6 columns">
+  <div class="large-12 columns">
       <img src="http://placehold.it/470x264/6b6351/e1dcd7&amp;text=Width+470+Pixel">
   </div>
   <div class="large-6 columns">
