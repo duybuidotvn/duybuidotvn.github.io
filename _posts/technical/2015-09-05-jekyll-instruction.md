@@ -8,7 +8,7 @@ header: no
 image:
 	thumb: thumb-jekyll.jpg
 categories:
-    - technical
+    - design
 tags:
     - Blog Technical
     - Web Framework
