@@ -8,8 +8,8 @@ header: no
 image:
     thumb: thumb-typo.jpg
     homepage: homepage_typography.jpg
-    caption: Image by Antonio
-    caption_url: "http://www.aisleone.net/"
+    caption: Sources from Internet
+    caption_url: "http://en.wikipedia.org/wiki/Typography/"
 categories:
     - design
 ---
