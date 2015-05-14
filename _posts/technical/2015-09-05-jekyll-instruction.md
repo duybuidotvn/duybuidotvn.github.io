@@ -1,15 +1,16 @@
 ---
-layout: page
-subheadline:  "Jekyll"
+layout: page-fullwidth
+subheadline:  "Jekyll Instruction"
 title:  "An Overview about Jekyll"
-teaser: "Feeling Responsive allows you to use all kinds of headers. This example shows <em>no</em> header at all. Just the navigation."
+teaser: "What is Jekyll? How to use it? In this document, I will give a brief overview about Jekyll Framework."
 categories:
     - technical
 tags:
-    - design
-    - background color
-    - header
+    - Jekyll Framework
+    - Markup Language
 header: no
+image:
+	thumb: thumb-jekyll.jpg
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
