@@ -15,12 +15,12 @@ permalink: "/about/"
   </div>
   <div class="small-5 columns">
       	<div class="panel radius">
-		<h3>Profile</h3>
+		<center><h3><b>PROFILE</b></h3></center>
 		<p>
-		<b><ins>Full name:</ins></b> Bui Ta Duy.<br>
-		<b><ins>Birthday:</ins></b> 22/01/1988.<br>
-		<b><ins>Nationality:</ins></b> Vietnamese.<br>
-		<b><ins>Hobbies:</ins></b> Travel, Listen Music, Reading Books. <br>
+		<b>Full name:</b> Bui Ta Duy.<br>
+		<b>Birthday:</b> 22/01/1988.<br>
+		<b>Nationality:</b> Vietnamese.<br>
+		<b>Hobbies:</b> Travel, Listen Music, Reading Books. <br>
 		</p>
 	</div>
 	<div class="border-dotted radius b30">
