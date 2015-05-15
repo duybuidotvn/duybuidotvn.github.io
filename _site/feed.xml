@@ -3,8 +3,8 @@
   <channel>
     <title>Duy Bui&#39;s digital porfolio</title>
     <description>It&#39;s made me closer the world</description>
-    <link>https://duybuivn.github.io//</link>
-    <atom:link href="https://duybuivn.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://duybuivn.github.io/</link>
+    <atom:link href="https://duybuivn.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>An Overview about Jekyll</title>
@@ -333,21 +333,21 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
 
 </description>
         <pubDate>Sat, 16 May 2015 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//technical/jekyll-instruction/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//technical/jekyll-instruction/</guid>
+        <link>https://duybuivn.github.io/technical/jekyll-instruction/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/technical/jekyll-instruction/</guid>
       </item>
     
       <item>
         <title>A Beautiful Gallery</title>
-        <description>&lt;p&gt;You just need to choose a template like the &lt;a href=&quot;https://duybuivn.github.io//design/page/&quot;&gt;&lt;code&gt;page&lt;/code&gt;&lt;/a&gt;- or &lt;a href=&quot;https://duybuivn.github.io//design/page-fullwidth/&quot;&gt;&lt;code&gt;page-fullwidth&lt;/code&gt;&lt;/a&gt;-template and than use some foundation magic.&lt;/p&gt;
+        <description>&lt;p&gt;You just need to choose a template like the &lt;a href=&quot;https://duybuivn.github.io/design/page/&quot;&gt;&lt;code&gt;page&lt;/code&gt;&lt;/a&gt;- or &lt;a href=&quot;https://duybuivn.github.io/design/page-fullwidth/&quot;&gt;&lt;code&gt;page-fullwidth&lt;/code&gt;&lt;/a&gt;-template and than use some foundation magic.&lt;/p&gt;
 
 &lt;ul class=&quot;clearing-thumbs small-block-grid-3&quot; data-clearing=&quot;&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;https://download.unsplash.com/photo-1431103327216-d1d9e8aa46d2&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/unsplash_1_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//images/unsplash_2.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/unsplash_2_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//images/unsplash_3.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/unsplash_3_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//images/unsplash_4.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/unsplash_4_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//images/unsplash_5.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/unsplash_5_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//images/unsplash_6.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/unsplash_6_bus_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.unsplash.com/photo-1431103327216-d1d9e8aa46d2&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_1_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_2.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_2_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_3.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_3_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_4.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_4_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_5.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_5_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_6.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_6_bus_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;clearing-lightbox-code&quot;&gt;Clearing Lightbox Code&lt;/h2&gt;
@@ -367,7 +367,7 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
   
 
     
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//photo-diary/gallery-2015/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/photo-diary/gallery-2015/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
 
   
@@ -375,8 +375,8 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
 
 </description>
         <pubDate>Fri, 15 May 2015 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//photo-diary/gallery-2015/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//photo-diary/gallery-2015/</guid>
+        <link>https://duybuivn.github.io/photo-diary/gallery-2015/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/photo-diary/gallery-2015/</guid>
       </item>
     
       <item>
@@ -799,8 +799,8 @@ element&lt;/td&gt;
   &lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 14 May 2015 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//design/typography/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//design/typography/</guid>
+        <link>https://duybuivn.github.io/design/typography/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/design/typography/</guid>
       </item>
     
       <item>
@@ -884,17 +884,17 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//about/teaching-vn/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//about/teaching-vn/</guid>
+        <link>https://duybuivn.github.io/about/teaching-vn/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/teaching-vn/</guid>
       </item>
     
       <item>
         <title>Teaching - Giảng dạy</title>
         <description>&lt;hr /&gt;
 
-&lt;p&gt;You can visit information in &lt;a href=&quot;http://https://duybuivn.github.io//about/teaching-en/&quot;&gt;English&lt;/a&gt; or Vietnamese following options below. &lt;/p&gt;
+&lt;p&gt;You can visit information in &lt;a href=&quot;http://https://duybuivn.github.io/about/teaching-en/&quot;&gt;English&lt;/a&gt; or Vietnamese following options below. &lt;/p&gt;
 
-&lt;p&gt;Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc &lt;a href=&quot;http://https://duybuivn.github.io//about/teaching-vn/&quot;&gt;Tiếng Việt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc &lt;a href=&quot;http://https://duybuivn.github.io/about/teaching-vn/&quot;&gt;Tiếng Việt&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -969,8 +969,8 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//about/teaching-en/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//about/teaching-en/</guid>
+        <link>https://duybuivn.github.io/about/teaching-en/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/teaching-en/</guid>
       </item>
     
       <item>
@@ -979,8 +979,8 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//about/research/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//about/research/</guid>
+        <link>https://duybuivn.github.io/about/research/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/research/</guid>
       </item>
     
       <item>
@@ -1001,9 +1001,9 @@ element&lt;/td&gt;
   
 
     
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//about/research/&quot;&gt;In processing &amp;middot; &lt;strong&gt;Research&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;In processing &amp;middot; &lt;strong&gt;Research&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
 
   
@@ -1011,8 +1011,8 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//about/header-with-text/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//about/header-with-text/</guid>
+        <link>https://duybuivn.github.io/about/header-with-text/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/header-with-text/</guid>
       </item>
     
       <item>
@@ -1096,8 +1096,8 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io//about/curriculum-vitae/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io//about/curriculum-vitae/</guid>
+        <link>https://duybuivn.github.io/about/curriculum-vitae/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io/about/curriculum-vitae/</guid>
       </item>
     
   </channel>
