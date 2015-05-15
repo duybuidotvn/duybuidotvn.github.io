@@ -21,7 +21,7 @@ description: "It's made me closer the world"
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://duybuivn.github.io"
+url: "http://duybuivn.github.io/"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
