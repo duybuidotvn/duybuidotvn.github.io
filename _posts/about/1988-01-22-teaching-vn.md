@@ -10,9 +10,9 @@ header: no
 ---
 <hr>
 
-You can visit information in <a href="{{site.url}}/about/teaching-en/">English</a> or Vietnamese following options below. 
+You can visit information in <a href="https://duybuivn.github.io//about/teaching-en/">English</a> or Vietnamese following options below. 
 
-Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc <a href="{{site.url}}/about/teaching-vn/">Tiếng Việt</a>
+Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc <a href="https://duybuivn.github.io//about/teaching-vn/">Tiếng Việt</a>
 
 <hr>
 
