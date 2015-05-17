@@ -19,7 +19,6 @@ header:
 
 
 
-## Other Albums
 {: .t60 }
 {% include list-posts.html tag='post format' %}
 
