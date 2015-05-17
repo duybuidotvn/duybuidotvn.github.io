@@ -5,6 +5,7 @@ title:  "ON THE ROAD"
 teaser: "ON THE ROAD is the way of my looking at the amazing roads on the world. I hope you will enjoy it"
 categories:
     - photo-diary
+comments: true
 header:
    image_fullwidth: "header-ontheroad.jpg"
 ---

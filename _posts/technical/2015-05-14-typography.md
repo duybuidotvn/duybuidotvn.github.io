@@ -12,6 +12,7 @@ image:
     caption_url: "http://en.wikipedia.org/wiki/Typography/"
 categories:
     - design
+comments: true
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">

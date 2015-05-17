@@ -14,6 +14,7 @@ image:
     homepage: homepage_markup_language.jpg
     caption: Sources from Internet
     caption_url: "http://en.wikipedia.org/wiki/Markup_language/"
+comments: true
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
