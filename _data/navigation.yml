@@ -19,8 +19,8 @@
   url: "/photo-diary/"
   side: left
   dropdown:
-  - title: "2015"
-    url: "/photo-diary/gallery-2015/"
+  - title: "on the road"
+    url: "/photo-diary/on-the-road/"
 
 - title: Blog
   url: "/blog/"

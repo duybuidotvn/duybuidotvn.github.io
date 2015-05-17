@@ -4,7 +4,7 @@ show_meta: true
 title: "Photo Diary"
 subheadline: "Introduction"
 header:
-   image_fullwidth: "header_roadmap_3.jpg"
+   image_fullwidth: "heade-diary.jpg"
 permalink: "/photo-diary/"
 ---
 

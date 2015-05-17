@@ -7,7 +7,7 @@
 layout: frontpage
 title: "Duy T. Bui – On my way"
 header:
-   image_fullwidth: "header_unsplash_12.jpg"
+   image_fullwidth: "header-homepage1.jpg"
 widget-1:
     title: "About me & Portfolio"
     url: 'http://duybuivn.github.io/about/'

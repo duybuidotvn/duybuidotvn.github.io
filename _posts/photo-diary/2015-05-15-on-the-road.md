@@ -1,8 +1,8 @@
 ---
 layout: page
 subheadline:  "Photo Diary"
-title:  "Vietnam - on the road"
-teaser: "Vietnam on the road is the way of my looking at beautiful road in Vietnam. I hope you will enjoy it"
+title:  "ON THE ROAD"
+teaser: "ON THE ROAD is the way of my looking at the amazing roads on the world. I hope you will enjoy it"
 categories:
     - photo-diary
 header:
