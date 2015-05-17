@@ -55,36 +55,35 @@ Request in class: No phone, no internet, no private discussion and attention.
 
 ###Lectures
 
-####Algorithms and Data Structure
+####Algorithms and Data Structure (Winter - 2014)
 **Slide:** [First sesion][1] [Chapter 1][2] [Chapter 2][3] [Chapter 3][4] [Chapter 4][5] [Chapter 5][6] [Chapter 6][7] [Chapter 7][8]   
 
 **Useful link:**
 
 <hr>
 
-####Computer Concepts
+####Computer Concepts (Spring 2015)
 **Slide:** [First sesion][9] [Chapter 1][10] [Chapter 2][11] [Chapter 3][12] [Chapter 4][13] [Chapter 5][14]    
 
 **Useful link:** 
 
 <hr>
 
-####Basic Programming
+####Basic Programming (Spring 2015)
+
+**Slide:** [First sesion][15] [Chapter 1][16] [Chapter 2][17] [Chapter 3][18] [Chapter 4][19] [Chapter 5][20] [Chapter 6][21] [Chapter 7][22] [Chapter 8][23] [Chapter 9][24] [Chapter 10][25] [Chapter 11][26] [Chapter 12][27] [Chapter 13][28] 
+
+**Useful link:**
 
 <hr>
+
+####Discrete Maths (Summer 2015)
 
 **Slide:** 
 
 **Useful link:**
 
-####Discrete Maths
-
 <hr>
-
-**Slide:** 
-
-**Useful link:**
-
 
  [1]: https://drive.google.com/open?id=0BxBiM0OcuJd_LVdZb21ZUkhkWlk&authuser=0/
  [2]: https://drive.google.com/open?id=0BxBiM0OcuJd_LUhuc3dJVllsZ0k&authuser=0/
@@ -100,4 +99,20 @@ Request in class: No phone, no internet, no private discussion and attention.
  [12]: https://drive.google.com/open?id=0BxBiM0OcuJd_bmNQbUpjaXNQM1U&authuser=0/
  [13]: https://drive.google.com/open?id=0BxBiM0OcuJd_OGZjakRoV2Y2S00&authuser=0/
  [14]: https://drive.google.com/open?id=0BxBiM0OcuJd_d2dYeVJrdDBnRTA&authuser=0/
- [15]: #
+ [15]: https://drive.google.com/open?id=0BxBiM0OcuJd_RFZfRGdaamxObW8&authuser=0/
+ [16]: https://drive.google.com/open?id=0BxBiM0OcuJd_c0JPT0E5WE9xY2s&authuser=0/
+ [17]: https://drive.google.com/open?id=0BxBiM0OcuJd_NXlZX1MyTXhlaTA&authuser=0/
+ [18]: https://drive.google.com/open?id=0BxBiM0OcuJd_cTkxMWdaNGx3RDA&authuser=0/
+ [19]: https://drive.google.com/open?id=0BxBiM0OcuJd_d0tsVUh1azNmbzA&authuser=0/
+ [20]: https://drive.google.com/open?id=0BxBiM0OcuJd_TnQzb19zbHFXQk0&authuser=0/
+ [21]: https://drive.google.com/open?id=0BxBiM0OcuJd_ZlFVSGtLckEwa2c&authuser=0/
+ [22]: https://drive.google.com/open?id=0BxBiM0OcuJd_MEtFTnQ4UmJQTms&authuser=0/
+ [23]: https://drive.google.com/open?id=0BxBiM0OcuJd_bmZvYWo3bFNBV2c&authuser=0/
+ [24]: https://drive.google.com/open?id=0BxBiM0OcuJd_UENlZGs0UVp1NWs&authuser=0/
+ [25]: https://drive.google.com/open?id=0BxBiM0OcuJd_dFZUekxhbFJDYXc&authuser=0/
+ [26]: https://drive.google.com/open?id=0BxBiM0OcuJd_eVpQVmpnd2tzUDQ&authuser=0/
+ [27]: https://drive.google.com/open?id=0BxBiM0OcuJd_LXFTYlNsazc1ajQ&authuser=0/
+ [28]: https://drive.google.com/open?id=0BxBiM0OcuJd_aVRud196MVRUalk&authuser=0/
+ [29]: #
+ [30]: #
+ [31]: #

@@ -55,36 +55,34 @@ Yêu cầu chung tại lớp: Không điện thoại, không internet, không th
 
 ###Lectures
 
-####Cấu trúc dữ liệu và giải thuật
-**Bài Giảng:** [Phần đầu][1] [Chuương 1][2] [Chuương 2][3] [Chuương 3][4] [Chuương 4][5] [Chuương 5][6] [Chuương 6][7] [Chuương 7][8]   
+####Cấu trúc dữ liệu và giải thuật (Học kỳ I - 1415)
+**Bài Giảng:** [Giới thiệu][1] [Chuương 1][2] [Chuương 2][3] [Chuương 3][4] [Chuương 4][5] [Chuương 5][6] [Chuương 6][7] [Chuương 7][8]   
 
 **Trang tham khảo:**
 
 <hr>
 
-####Tin học đại cương
-**Bài Giảng:** [Phần đầu][9] [Chuương 1][10] [Chuương 2][11] [Chuương 3][12] [Chuương 4][13] [Chuương 5][14]    
+####Tin học đại cương (Học kỳ II - 1415)
+**Bài Giảng:** [Giới thiệu][9] [Chuương 1][10] [Chuương 2][11] [Chuương 3][12] [Chuương 4][13] [Chuương 5][14]    
 
 **Trang tham khảo:** 
 
 <hr>
 
-####Cơ sở lập trình
+####Cơ sở lập trình (Học kỳ II - 1415)
+**Bài Giảng:** [Giới thiệu][15] [Chương 1][16] [Chương 2][17] [Chương 3][18] [Chương 4][19] [Chương 5][20] [Chương 6][21] [Chương 7][22] [Chương 8][23] [Chương 9][24] [Chương 10][25] [Chương 11][26] [Chương 12][27] [Chương 13][28] 
+
+**Trang tham khảo:**
 
 <hr>
+
+####Toán rời rạc (Học kỳ hè - 1415)
 
 **Bài Giảng:** 
 
 **Trang tham khảo:**
 
-####Toán rời rạc
-
 <hr>
-
-**Bài Giảng:** 
-
-**Trang tham khảo:**
-
 
  [1]: https://drive.google.com/open?id=0BxBiM0OcuJd_LVdZb21ZUkhkWlk&authuser=0/
  [2]: https://drive.google.com/open?id=0BxBiM0OcuJd_LUhuc3dJVllsZ0k&authuser=0/
@@ -100,4 +98,20 @@ Yêu cầu chung tại lớp: Không điện thoại, không internet, không th
  [12]: https://drive.google.com/open?id=0BxBiM0OcuJd_bmNQbUpjaXNQM1U&authuser=0/
  [13]: https://drive.google.com/open?id=0BxBiM0OcuJd_OGZjakRoV2Y2S00&authuser=0/
  [14]: https://drive.google.com/open?id=0BxBiM0OcuJd_d2dYeVJrdDBnRTA&authuser=0/
- [15]: #
+ [15]: https://drive.google.com/open?id=0BxBiM0OcuJd_RFZfRGdaamxObW8&authuser=0/
+ [16]: https://drive.google.com/open?id=0BxBiM0OcuJd_c0JPT0E5WE9xY2s&authuser=0/
+ [17]: https://drive.google.com/open?id=0BxBiM0OcuJd_NXlZX1MyTXhlaTA&authuser=0/
+ [18]: https://drive.google.com/open?id=0BxBiM0OcuJd_cTkxMWdaNGx3RDA&authuser=0/
+ [19]: https://drive.google.com/open?id=0BxBiM0OcuJd_d0tsVUh1azNmbzA&authuser=0/
+ [20]: https://drive.google.com/open?id=0BxBiM0OcuJd_TnQzb19zbHFXQk0&authuser=0/
+ [21]: https://drive.google.com/open?id=0BxBiM0OcuJd_ZlFVSGtLckEwa2c&authuser=0/
+ [22]: https://drive.google.com/open?id=0BxBiM0OcuJd_MEtFTnQ4UmJQTms&authuser=0/
+ [23]: https://drive.google.com/open?id=0BxBiM0OcuJd_bmZvYWo3bFNBV2c&authuser=0/
+ [24]: https://drive.google.com/open?id=0BxBiM0OcuJd_UENlZGs0UVp1NWs&authuser=0/
+ [25]: https://drive.google.com/open?id=0BxBiM0OcuJd_dFZUekxhbFJDYXc&authuser=0/
+ [26]: https://drive.google.com/open?id=0BxBiM0OcuJd_eVpQVmpnd2tzUDQ&authuser=0/
+ [27]: https://drive.google.com/open?id=0BxBiM0OcuJd_LXFTYlNsazc1ajQ&authuser=0/
+ [28]: https://drive.google.com/open?id=0BxBiM0OcuJd_aVRud196MVRUalk&authuser=0/
+ [29]: #
+ [30]: #
+ [31]: #

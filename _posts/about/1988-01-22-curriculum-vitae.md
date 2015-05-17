@@ -31,7 +31,7 @@ header: no
 	- Coach of Pham Van Dong University’s team at ACM/ICPC & Student Informatics Olympic contest in 2 years. 
 	- Publishing Paper: Using Prezi for Presenting Research Paper and Education - [Slide][2] [Pdf][3], Proposal for Job Portal Development- [Slide][4] [Pdf][5]
 - **From Jan. 2012 to Jan 2013:** Software Developer at KAO Vietnam.
-	- Project: SAP interated web application for Distributor System. 
+	- Project: interated SAP in web application for Distributor System. 
 - **From Jul. 2011 to Nov. 2011:** Software Engineer Intern at CSC Vietnam.
 	- Project: Firstdoc.
 - **From Sep. 2008 to Sep 2010:** Leader of several course projects: Sale Car Management, Hotel Management, Register Course Management, RSS feed, Job Matching System. 
