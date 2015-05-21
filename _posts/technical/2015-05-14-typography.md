@@ -271,6 +271,8 @@ Let's <mark>mark this hint</mark> to give you a clue.
 
 Need a break? I give you three!<br><br><br>
 
+{% include improve_content.html %}
+{% include share-page.html %}
 
  [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
  [2]: http://phlow.de/

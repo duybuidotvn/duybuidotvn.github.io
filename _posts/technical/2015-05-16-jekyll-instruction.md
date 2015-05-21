@@ -272,7 +272,7 @@ Jekyll-bootstrap is intended to provide helper methods and strategies aimed at m
 Thank you for reading this far and waiting for next post.
 
 {% include improve_content.html %}
-
+{% include share-page.html %}
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
