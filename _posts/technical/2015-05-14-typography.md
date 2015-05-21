@@ -364,16 +364,9 @@ element</td>
       <td>no styling needed</td>
     </tr>
 </table>
-
-
-
-
-
-
-{% include improve_content.html %}
-{% include share-page.html %}
-
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
+{% include improve_content.html %}
+{% include share-page.html %}
 
