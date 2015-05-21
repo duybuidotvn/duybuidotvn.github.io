@@ -366,7 +366,3 @@ element</td>
 </table>
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
-
-{% include improve_content.html %}
-{% include share-page.html %}
-
