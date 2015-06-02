@@ -3,8 +3,8 @@
   <channel>
     <title>Duy Bui&#39;s digital porfolio</title>
     <description>It&#39;s made me closer the world</description>
-    <link>https://duybuivn.github.io/</link>
-    <atom:link href="https://duybuivn.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://duybuivn.github.io//</link>
+    <atom:link href="https://duybuivn.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>An Overview about Jekyll</title>
@@ -327,47 +327,39 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
 	&lt;/div&gt;
 &lt;/div&gt;
 
+    &lt;div class=&quot;share-page&quot;&gt;
+   &lt;h2&gt;
+   &lt;b&gt;Share it on &amp;rarr;&lt;/b&gt;
+    &lt;a href=&quot;https://facebook.com/sharer.php?u=https://duybuivn.github.io//technical/jekyll-instruction/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Facebook&quot;&gt;&lt;img class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/social-media/Facebook.png&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;https://plus.google.com/share?url=https://duybuivn.github.io//technical/jekyll-instruction/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Google+&quot;&gt;&lt;img class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/social-media/Google+.png&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;https://twitter.com/intent/tweet?text=An Overview about Jekyll&amp;amp;url=https://duybuivn.github.io//technical/jekyll-instruction/&amp;amp;via=&amp;amp;related=&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot;&gt;&lt;img class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/social-media/Twitter.png&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://www.tumblr.com/share/link?url=https://duybuivn.github.io//technical/jekyll-instruction/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Tumblr&quot;&gt;&lt;img class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/social-media/Tumblr.png&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://www.reddit.com/submit?url=https://duybuivn.github.io//technical/jekyll-instruction/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Reddit&quot;&gt;&lt;img class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/social-media/Reddit.png&quot; /&gt;&lt;/a&gt;
+    &lt;/h2&gt;
+&lt;/div&gt;
+
   &lt;/div&gt;&lt;!-- /.medium-8.columns --&gt;
 &lt;/div&gt;
 &lt;!-- /.row --&gt;
 
 </description>
         <pubDate>Sat, 16 May 2015 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/technical/jekyll-instruction/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/technical/jekyll-instruction/</guid>
+        <link>https://duybuivn.github.io//technical/jekyll-instruction/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//technical/jekyll-instruction/</guid>
       </item>
     
       <item>
-        <title>A Beautiful Gallery</title>
-        <description>&lt;p&gt;You just need to choose a template like the &lt;a href=&quot;https://duybuivn.github.io/design/page/&quot;&gt;&lt;code&gt;page&lt;/code&gt;&lt;/a&gt;- or &lt;a href=&quot;https://duybuivn.github.io/design/page-fullwidth/&quot;&gt;&lt;code&gt;page-fullwidth&lt;/code&gt;&lt;/a&gt;-template and than use some foundation magic.&lt;/p&gt;
-
-&lt;ul class=&quot;clearing-thumbs small-block-grid-3&quot; data-clearing=&quot;&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;https://download.unsplash.com/photo-1431103327216-d1d9e8aa46d2&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_1_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_2.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_2_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_3.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_3_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_4.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_4_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_5.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_5_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/images/unsplash_6.jpg&quot;&gt;&lt;img data-caption=&quot;All images by Unsplash.com&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io/images/unsplash_6_bus_thumb.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+        <title>ON THE ROAD</title>
+        <description>&lt;ul class=&quot;clearing-thumbs small-block-grid-3&quot; data-clearing=&quot;&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.unsplash.com/photo-1431866882364-e7d0880c5a01&quot;&gt;&lt;img data-caption=&quot;Sapa&#39;s road&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/thumbs-photo-diary/on-the-road/thumb-road1.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.unsplash.com/photo-1431867204310-08528e8353bc&quot;&gt;&lt;img data-caption=&quot;Ly Son&#39;s road&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/thumbs-photo-diary/on-the-road/thumb-road2.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.unsplash.com/photo-1431867351497-96d486aa028f&quot;&gt;&lt;img data-caption=&quot;Binh Thuan&#39;s road&quot; class=&quot;th&quot; src=&quot;https://duybuivn.github.io//images/thumbs-photo-diary/on-the-road/thumb-road3.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&quot;clearing-lightbox-code&quot;&gt;Clearing Lightbox Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://foundation.zurb.com/docs/components/clearing.html&quot;&gt;Clearing Lightbox&lt;/a&gt; is so flexible especially when using the &lt;a href=&quot;http://foundation.zurb.com/docs/components/block_grid.html&quot;&gt;block grid&lt;/a&gt;. For extensive documentation visit the &lt;a href=&quot;http://foundation.zurb.com/docs/components/clearing.html&quot;&gt;foundation docs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;clearing-thumbs small-block-grid-3&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-clearing&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 1&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 2&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/img&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-caption=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;caption 3&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;path/to/your/thumbnail&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 class=&quot;t60&quot; id=&quot;other-post-formats&quot;&gt;Other Post Formats&lt;/h2&gt;
 
 &lt;ul class=&quot;side-nav&quot;&gt;
 
   
 
-    
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/photo-diary/gallery-2015/&quot;&gt;Templates &amp;middot; &lt;strong&gt;A Beautiful Gallery&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
 
   
@@ -375,8 +367,8 @@ Finally the liquid templates are “rendered”, thereby processing any liquid s
 
 </description>
         <pubDate>Fri, 15 May 2015 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/photo-diary/gallery-2015/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/photo-diary/gallery-2015/</guid>
+        <link>https://duybuivn.github.io//photo-diary/on-the-road/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//photo-diary/on-the-road/</guid>
       </item>
     
       <item>
@@ -784,32 +776,23 @@ element&lt;/td&gt;
       &lt;td&gt;no styling needed&lt;/td&gt;
     &lt;/tr&gt;
 
-
-
-
-
-
-
-
 &lt;!-- /.medium-8.columns --&gt;
 &lt;!-- /.row --&gt;
-
-
 &lt;/tbody&gt;&lt;/table&gt;
   &lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 14 May 2015 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/design/typography/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/design/typography/</guid>
+        <link>https://duybuivn.github.io//design/typography/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//design/typography/</guid>
       </item>
     
       <item>
         <title>Teaching - Giảng dạy</title>
         <description>&lt;hr /&gt;
 
-&lt;p&gt;You can visit information in &lt;a href=&quot;http://https://duybuivn.github.io//about/teaching-en/&quot;&gt;English&lt;/a&gt; or Vietnamese following options below. &lt;/p&gt;
+&lt;p&gt;You can visit information in &lt;a href=&quot;https://duybuivn.github.io//about/teaching-en/&quot;&gt;English&lt;/a&gt; or Vietnamese following options below. &lt;/p&gt;
 
-&lt;p&gt;Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc &lt;a href=&quot;http://https://duybuivn.github.io//about/teaching-vn/&quot;&gt;Tiếng Việt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc &lt;a href=&quot;https://duybuivn.github.io//about/teaching-vn/&quot;&gt;Tiếng Việt&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -852,49 +835,48 @@ element&lt;/td&gt;
 
 &lt;h3 id=&quot;lectures&quot;&gt;Lectures&lt;/h3&gt;
 
-&lt;h4 id=&quot;cu-trc-d-liu-v-gii-thut&quot;&gt;Cấu trúc dữ liệu và giải thuật&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Bài Giảng:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LVdZb21ZUkhkWlk&amp;amp;authuser=0/&quot;&gt;Phần đầu&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LUhuc3dJVllsZ0k&amp;amp;authuser=0/&quot;&gt;Chuương 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MVZfNldfWWhjM0E&amp;amp;authuser=0/&quot;&gt;Chuương 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_YzllWTRBVmV1V1k&amp;amp;authuser=0/&quot;&gt;Chuương 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_VnlBLV9YYWY3VTg&amp;amp;authuser=0/&quot;&gt;Chuương 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_eUM3ZGJqeUFlZTA&amp;amp;authuser=0/&quot;&gt;Chuương 5&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_VkhSQW5TX1R0Rm8&amp;amp;authuser=0/&quot;&gt;Chuương 6&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_SngtYWRYalpoQVU&amp;amp;authuser=0/&quot;&gt;Chuương 7&lt;/a&gt;   &lt;/p&gt;
+&lt;h4 id=&quot;cu-trc-d-liu-v-gii-thut-hc-k-i---1415&quot;&gt;Cấu trúc dữ liệu và giải thuật (Học kỳ I - 1415)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Bài Giảng:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LVdZb21ZUkhkWlk&amp;amp;authuser=0/&quot;&gt;Giới thiệu&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LUhuc3dJVllsZ0k&amp;amp;authuser=0/&quot;&gt;Chuương 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MVZfNldfWWhjM0E&amp;amp;authuser=0/&quot;&gt;Chuương 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_YzllWTRBVmV1V1k&amp;amp;authuser=0/&quot;&gt;Chuương 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_VnlBLV9YYWY3VTg&amp;amp;authuser=0/&quot;&gt;Chuương 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_eUM3ZGJqeUFlZTA&amp;amp;authuser=0/&quot;&gt;Chuương 5&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_VkhSQW5TX1R0Rm8&amp;amp;authuser=0/&quot;&gt;Chuương 6&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_SngtYWRYalpoQVU&amp;amp;authuser=0/&quot;&gt;Chuương 7&lt;/a&gt;   &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Trang tham khảo:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;tin-hc-i-cng&quot;&gt;Tin học đại cương&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Bài Giảng:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_cUZaSWlvLXpuaFk&amp;amp;authuser=0/&quot;&gt;Phần đầu&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MG9fdDF3dXFrRWs&amp;amp;authuser=0/&quot;&gt;Chuương 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_UF9sVU50Rm5qTEk&amp;amp;authuser=0/&quot;&gt;Chuương 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_bmNQbUpjaXNQM1U&amp;amp;authuser=0/&quot;&gt;Chuương 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_OGZjakRoV2Y2S00&amp;amp;authuser=0/&quot;&gt;Chuương 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_d2dYeVJrdDBnRTA&amp;amp;authuser=0/&quot;&gt;Chuương 5&lt;/a&gt;    &lt;/p&gt;
+&lt;h4 id=&quot;tin-hc-i-cng-hc-k-ii---1415&quot;&gt;Tin học đại cương (Học kỳ II - 1415)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Bài Giảng:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_cUZaSWlvLXpuaFk&amp;amp;authuser=0/&quot;&gt;Giới thiệu&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MG9fdDF3dXFrRWs&amp;amp;authuser=0/&quot;&gt;Chuương 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_UF9sVU50Rm5qTEk&amp;amp;authuser=0/&quot;&gt;Chuương 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_bmNQbUpjaXNQM1U&amp;amp;authuser=0/&quot;&gt;Chuương 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_OGZjakRoV2Y2S00&amp;amp;authuser=0/&quot;&gt;Chuương 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_d2dYeVJrdDBnRTA&amp;amp;authuser=0/&quot;&gt;Chuương 5&lt;/a&gt;    &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Trang tham khảo:&lt;/strong&gt; &lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;c-s-lp-trnh&quot;&gt;Cơ sở lập trình&lt;/h4&gt;
+&lt;h4 id=&quot;c-s-lp-trnh-hc-k-ii---1415&quot;&gt;Cơ sở lập trình (Học kỳ II - 1415)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Bài Giảng:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_RFZfRGdaamxObW8&amp;amp;authuser=0/&quot;&gt;Giới thiệu&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_c0JPT0E5WE9xY2s&amp;amp;authuser=0/&quot;&gt;Chương 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_NXlZX1MyTXhlaTA&amp;amp;authuser=0/&quot;&gt;Chương 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_cTkxMWdaNGx3RDA&amp;amp;authuser=0/&quot;&gt;Chương 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_d0tsVUh1azNmbzA&amp;amp;authuser=0/&quot;&gt;Chương 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_TnQzb19zbHFXQk0&amp;amp;authuser=0/&quot;&gt;Chương 5&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_ZlFVSGtLckEwa2c&amp;amp;authuser=0/&quot;&gt;Chương 6&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MEtFTnQ4UmJQTms&amp;amp;authuser=0/&quot;&gt;Chương 7&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_bmZvYWo3bFNBV2c&amp;amp;authuser=0/&quot;&gt;Chương 8&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_UENlZGs0UVp1NWs&amp;amp;authuser=0/&quot;&gt;Chương 9&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_dFZUekxhbFJDYXc&amp;amp;authuser=0/&quot;&gt;Chương 10&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_eVpQVmpnd2tzUDQ&amp;amp;authuser=0/&quot;&gt;Chương 11&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LXFTYlNsazc1ajQ&amp;amp;authuser=0/&quot;&gt;Chương 12&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_aVRud196MVRUalk&amp;amp;authuser=0/&quot;&gt;Chương 13&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trang tham khảo:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;h4 id=&quot;ton-ri-rc-hc-k-h---1415&quot;&gt;Toán rời rạc (Học kỳ hè - 1415)&lt;/h4&gt;
 
 &lt;p&gt;&lt;strong&gt;Bài Giảng:&lt;/strong&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Trang tham khảo:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;ton-ri-rc&quot;&gt;Toán rời rạc&lt;/h4&gt;
-
 &lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Bài Giảng:&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Trang tham khảo:&lt;/strong&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/about/teaching-vn/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/about/teaching-vn/</guid>
+        <link>https://duybuivn.github.io//about/teaching-vn/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//about/teaching-vn/</guid>
       </item>
     
       <item>
         <title>Teaching - Giảng dạy</title>
         <description>&lt;hr /&gt;
 
-&lt;p&gt;You can visit information in &lt;a href=&quot;http://https://duybuivn.github.io/about/teaching-en/&quot;&gt;English&lt;/a&gt; or Vietnamese following options below. &lt;/p&gt;
+&lt;p&gt;You can visit information in &lt;a href=&quot;https://duybuivn.github.io//about/teaching-en/&quot;&gt;English&lt;/a&gt; or Vietnamese following options below. &lt;/p&gt;
 
-&lt;p&gt;Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc &lt;a href=&quot;http://https://duybuivn.github.io/about/teaching-vn/&quot;&gt;Tiếng Việt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Tiếng Anh hoặc &lt;a href=&quot;https://duybuivn.github.io//about/teaching-vn/&quot;&gt;Tiếng Việt&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -937,40 +919,40 @@ element&lt;/td&gt;
 
 &lt;h3 id=&quot;lectures&quot;&gt;Lectures&lt;/h3&gt;
 
-&lt;h4 id=&quot;algorithms-and-data-structure&quot;&gt;Algorithms and Data Structure&lt;/h4&gt;
+&lt;h4 id=&quot;algorithms-and-data-structure-winter---2014&quot;&gt;Algorithms and Data Structure (Winter - 2014)&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Slide:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LVdZb21ZUkhkWlk&amp;amp;authuser=0/&quot;&gt;First sesion&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LUhuc3dJVllsZ0k&amp;amp;authuser=0/&quot;&gt;Chapter 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MVZfNldfWWhjM0E&amp;amp;authuser=0/&quot;&gt;Chapter 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_YzllWTRBVmV1V1k&amp;amp;authuser=0/&quot;&gt;Chapter 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_VnlBLV9YYWY3VTg&amp;amp;authuser=0/&quot;&gt;Chapter 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_eUM3ZGJqeUFlZTA&amp;amp;authuser=0/&quot;&gt;Chapter 5&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_VkhSQW5TX1R0Rm8&amp;amp;authuser=0/&quot;&gt;Chapter 6&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_SngtYWRYalpoQVU&amp;amp;authuser=0/&quot;&gt;Chapter 7&lt;/a&gt;   &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Useful link:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;computer-concepts&quot;&gt;Computer Concepts&lt;/h4&gt;
+&lt;h4 id=&quot;computer-concepts-spring-2015&quot;&gt;Computer Concepts (Spring 2015)&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Slide:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_cUZaSWlvLXpuaFk&amp;amp;authuser=0/&quot;&gt;First sesion&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MG9fdDF3dXFrRWs&amp;amp;authuser=0/&quot;&gt;Chapter 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_UF9sVU50Rm5qTEk&amp;amp;authuser=0/&quot;&gt;Chapter 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_bmNQbUpjaXNQM1U&amp;amp;authuser=0/&quot;&gt;Chapter 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_OGZjakRoV2Y2S00&amp;amp;authuser=0/&quot;&gt;Chapter 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_d2dYeVJrdDBnRTA&amp;amp;authuser=0/&quot;&gt;Chapter 5&lt;/a&gt;    &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Useful link:&lt;/strong&gt; &lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;basic-programming&quot;&gt;Basic Programming&lt;/h4&gt;
+&lt;h4 id=&quot;basic-programming-spring-2015&quot;&gt;Basic Programming (Spring 2015)&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Slide:&lt;/strong&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_RFZfRGdaamxObW8&amp;amp;authuser=0/&quot;&gt;First sesion&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_c0JPT0E5WE9xY2s&amp;amp;authuser=0/&quot;&gt;Chapter 1&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_NXlZX1MyTXhlaTA&amp;amp;authuser=0/&quot;&gt;Chapter 2&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_cTkxMWdaNGx3RDA&amp;amp;authuser=0/&quot;&gt;Chapter 3&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_d0tsVUh1azNmbzA&amp;amp;authuser=0/&quot;&gt;Chapter 4&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_TnQzb19zbHFXQk0&amp;amp;authuser=0/&quot;&gt;Chapter 5&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_ZlFVSGtLckEwa2c&amp;amp;authuser=0/&quot;&gt;Chapter 6&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_MEtFTnQ4UmJQTms&amp;amp;authuser=0/&quot;&gt;Chapter 7&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_bmZvYWo3bFNBV2c&amp;amp;authuser=0/&quot;&gt;Chapter 8&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_UENlZGs0UVp1NWs&amp;amp;authuser=0/&quot;&gt;Chapter 9&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_dFZUekxhbFJDYXc&amp;amp;authuser=0/&quot;&gt;Chapter 10&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_eVpQVmpnd2tzUDQ&amp;amp;authuser=0/&quot;&gt;Chapter 11&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_LXFTYlNsazc1ajQ&amp;amp;authuser=0/&quot;&gt;Chapter 12&lt;/a&gt; &lt;a href=&quot;https://drive.google.com/open?id=0BxBiM0OcuJd_aVRud196MVRUalk&amp;amp;authuser=0/&quot;&gt;Chapter 13&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful link:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;h4 id=&quot;discrete-maths-summer-2015&quot;&gt;Discrete Maths (Summer 2015)&lt;/h4&gt;
 
 &lt;p&gt;&lt;strong&gt;Slide:&lt;/strong&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Useful link:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;discrete-maths&quot;&gt;Discrete Maths&lt;/h4&gt;
-
 &lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Slide:&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Useful link:&lt;/strong&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/about/teaching-en/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/about/teaching-en/</guid>
+        <link>https://duybuivn.github.io//about/teaching-en/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//about/teaching-en/</guid>
       </item>
     
       <item>
@@ -979,8 +961,8 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/about/research/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/about/research/</guid>
+        <link>https://duybuivn.github.io//about/research/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//about/research/</guid>
       </item>
     
       <item>
@@ -1001,9 +983,9 @@ element&lt;/td&gt;
   
 
     
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/research/&quot;&gt;In processing &amp;middot; &lt;strong&gt;Research&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//about/research/&quot;&gt;In processing &amp;middot; &lt;strong&gt;Research&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
-      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io/about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://duybuivn.github.io//about/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
 
   
@@ -1011,8 +993,8 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/about/header-with-text/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/about/header-with-text/</guid>
+        <link>https://duybuivn.github.io//about/header-with-text/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//about/header-with-text/</guid>
       </item>
     
       <item>
@@ -1052,7 +1034,7 @@ element&lt;/td&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;From Jan. 2012 to Jan 2013:&lt;/strong&gt; Software Developer at KAO Vietnam.
     &lt;ul&gt;
-      &lt;li&gt;Project: SAP interated web application for Distributor System. &lt;/li&gt;
+      &lt;li&gt;Project: interated SAP in web application for Distributor System. &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;From Jul. 2011 to Nov. 2011:&lt;/strong&gt; Software Engineer Intern at CSC Vietnam.
@@ -1096,8 +1078,8 @@ element&lt;/td&gt;
 
 </description>
         <pubDate>Fri, 22 Jan 1988 00:00:00 +0700</pubDate>
-        <link>https://duybuivn.github.io/about/curriculum-vitae/</link>
-        <guid isPermaLink="true">https://duybuivn.github.io/about/curriculum-vitae/</guid>
+        <link>https://duybuivn.github.io//about/curriculum-vitae/</link>
+        <guid isPermaLink="true">https://duybuivn.github.io//about/curriculum-vitae/</guid>
       </item>
     
   </channel>
