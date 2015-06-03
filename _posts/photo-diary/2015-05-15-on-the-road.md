@@ -2,7 +2,7 @@
 layout: page
 subheadline:  "Photo Diary"
 title:  "ON THE ROAD"
-teaser: "ON THE ROAD is the way of my looking at the amazing roads on the world. I hope you will enjoy it"
+teaser: 
 categories:
     - photo-diary
 comments: true
