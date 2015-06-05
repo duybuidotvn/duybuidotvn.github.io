@@ -4,7 +4,7 @@ subheadline:  "Photo Diary"
 title:  "My Typography"
 teaser: 
 categories:
-    - my-typography
+    - photo-diary
 comments: true
 header:
    image_fullwidth: "homepage_typography.jpg"
