@@ -11,7 +11,7 @@ A topic that can easily make anyone's mind wobble. Here I try to make them stick
 
 ***
 
-<sub>Check out my [blog](http://kamranahmed.info) and say "hi" on [Twitter](https://twitter.com/kamranahmedse).</sub>
+<sub>Check out my [blog](http://duybuivn.github.io/) and say "hi" on [Facebook](https://www.facebook.com/coffee.bui).</sub>
 
 Introduction
 =================
