@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-title: "Curriculum Vitae."
+title: ""
 permalink: "/about/curriculum-vitae/"
 header: no
 ---
@@ -16,6 +16,12 @@ header: no
 	</div>
 </center>
 
+
+### **PROFILE**
+- **Birthday:** 22 January 1988.
+- **Nationality:** Vietnam.
+- **Gender:** Male.
+
 ### ***EXPERIENCE & SKILL SUMMARY***
 - 5+ years of experience in Web Application development utilizing Java..
 - 3+ years of experience in teaching and training.
@@ -25,11 +31,6 @@ header: no
 - Passionate, responsible and committed engineer, with a get-it-done, on-time spirit, willing to take extra time and effort to support other members to ensure deliver good results.
 - Quick learner and highly motivated team player with strong communication, organizational and analytical skills
 - Dedicated to learning new and emerging technologies: Blockchain, Artificial Intelligence, Machine Learning.
-
-### **PROFILE**
-- **Birthday:** 22 January 1988.
-- **Nationality:** Vietnam.
-- **Gender:** Male.
 
 ### **EDUCATION**
 - MSc in Computer Science (class 2016-2018), Information Technology University - Vietnam National University.
