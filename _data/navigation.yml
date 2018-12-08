@@ -21,8 +21,6 @@
   dropdown:
   - title: "on the road"
     url: "/photo-diary/on-the-road/"
-  - title: "my typography"
-    url: "/photo-diary/my-typography/"
 
 - title: Blog
   url: "/blog/"
