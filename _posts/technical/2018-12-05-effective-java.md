@@ -3,6 +3,7 @@ layout: page
 show_meta: no
 subheadline:  "Technical - Effective of Java"
 title:  "Technical - Effective of Java"
+teaser: "This is my summary of the Effective Java 2nd Edition by Joshua Bloch. I use it while learning and as quick reference. It is not intended to be an standalone substitution of the book so if you really want to learn the concepts here presented, buy and read the book and use this repository as a reference and guide."
 categories:
     - about
 header: no
