@@ -22,7 +22,7 @@ header: no
 - **Nationality:** Vietnam.
 - **Gender:** Male.
 
-### ***EXPERIENCE & SKILL SUMMARY***
+### **EXPERIENCE & SKILL SUMMARY**
 - 5+ years of experience in Web Application development utilizing Java..
 - 3+ years of experience in teaching and training.
 - Solid understanding of OOP, Algorithm & Data structure.
