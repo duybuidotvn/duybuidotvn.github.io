@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-title: ""
+title: "Curriculum Vitae."
 permalink: "/about/curriculum-vitae/"
 header: no
 ---
@@ -60,7 +60,7 @@ header: no
 	    -   Role: Developer.
 	    -   Technologies: Java CORE, Swing, GWT, XML, Regression test - TLE, Syn modelling: Version Map, Jenkins, Jira, Oracle, Git - bitbucket.
 - **From Jan. 2012 to Jan 2013: Software Developer at KAO Vietnam.**
-	**- Project: interated SAP in web application for Distributor System.**
+	- **Project: interated SAP in web application for Distributor System.**
 	    -   Description: Those web application system was being integration gates between sellers, buyers and distributors. Depending on the user’s input data from PC, smartphone or PDA, the system convert to data which is used in SAP system. 
 	    -   Role: Developer. 
 	    -   Technologies: UML, Oracle. 
