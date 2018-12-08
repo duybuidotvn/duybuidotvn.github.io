@@ -11,7 +11,7 @@ image:
     caption: Sources from Internet
     caption_url: "http://en.wikipedia.org/wiki/Typography/"
 categories:
-    - design
+    - technical
 comments: true
 ---
 <div class="row">
