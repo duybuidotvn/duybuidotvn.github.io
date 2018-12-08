@@ -21,6 +21,7 @@ header: no
 - **Birthday:** 22 January 1988.
 - **Nationality:** Vietnam.
 - **Gender:** Male.
+- **Email:** duybui.vn@gmail.com.
 
 ### **EXPERIENCE & SKILL SUMMARY**
 - 5+ years of experience in Web Application development utilizing Java..
