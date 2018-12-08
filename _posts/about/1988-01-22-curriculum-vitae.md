@@ -16,7 +16,7 @@ header: no
 	</div>
 </center>
 
-###EXPERIENCE & SKILL SUMMARY
+### ***EXPERIENCE & SKILL SUMMARY***
 - 5+ years of experience in Web Application development utilizing Java..
 - 3+ years of experience in teaching and training.
 - Solid understanding of OOP, Algorithm & Data structure.
@@ -25,22 +25,28 @@ header: no
 - Passionate, responsible and committed engineer, with a get-it-done, on-time spirit, willing to take extra time and effort to support other members to ensure deliver good results.
 - Quick learner and highly motivated team player with strong communication, organizational and analytical skills
 - Dedicated to learning new and emerging technologies: Blockchain, Artificial Intelligence, Machine Learning.
-###PROFILE
+### **PROFILE**
 - **Birthday:** 22 January 1988.
 - **Nationality:** Vietnam.
 - **Gender:** Male.
 
-###**EDUCATION**
+### **EDUCATION**
 - MSc in Computer Science (class 2016-2018), Information Technology University - Vietnam National University.
 - BSc in Computer Science (class 2006-2011), HCMC International University - Vietnam National University (Ranking: top 10%)
 
-###**WORKING EXPERIENCE**
+### **WORKING EXPERIENCE**
 - **From Apr. 2013 to present: Lecturer and Research Assistant at Faculty of Informatics, Pham Van Dong University.**
+	
 	- Teaching courses: Computer Concepts, Algorithms and Data Structures, Basic Programming, Design Pattern. 
+	
 	- Supervisor in Research of Students: Develop IT-PDU portal by Liferay Portal, Develop Web Application for Teaching online by MEAN stack framework.
+	
 	- Coach of Pham Van Dong University’s team at ACM/ICPC & Student Informatics Olympic contest in 2 years. 
+	
 	- Publishing Paper: Using Prezi for Presenting Research Paper and Education - [Slide][2] [Pdf][3], Proposal for Job Portal Development- [Slide][4] [Pdf][5]
+
 - **From Mar. 2018 to present: Product Manager at NHN Vietnam**
+
 	- **Project: Integrated SAP in web application for Distributor System.**
 	    - Description: Comico is an comic reader application of NHN Entertainment Corp using for various of markets such as: Japan, Thailand, Indonesia. Comico is running on diferrent platform such as web-based, iOS, Android. Currently, Comico will be developed for Spanish market and English market. 
 	    - Role: Product Manager. 
