@@ -70,7 +70,7 @@ header: no
 	- **Project: Firstdoc.**
 
 ### **COMPUTER SKILLS**
-- **Programming Language:** C, C++, Python, Java, JavaScript, SQL.
+- **Programming Language:** C, C++, Python, Java, JavaScript, SQL, Solidity.
 - **Web Technology:** Liferay, Spring MVC, Spring Boot, RESTful Web Services
 - **Database:** MySQL, Postgre, Oracle.
 - **Web Server:** Tomcat Apache, Glassfish.
@@ -88,11 +88,12 @@ header: no
 -	Hoang Phan, Adjunct Professor at San Jose University. 
 	- Email: pvhoang@hcmiu.edu.vn
 
-#### IN PDF: [Duy Bui 's CV][1]
+#### IN PDF: [Duy Bui 's CV Work][1] [Duy Bui 's CV Research][6] 
 <br>
 <hr>
- [1]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/CV.pdf
+ [1]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/CV-work.pdf
  [2]: https://prezi.com/0xbcmko5rbwc/overview-prezi/
  [3]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/Prezi.pdf
  [4]: https://duybuivn.github.io/jmp/
  [5]: https://github.com/duybuivn/duybuivn.github.io/blob/master/files/JMP.pdf
+ [6]: #

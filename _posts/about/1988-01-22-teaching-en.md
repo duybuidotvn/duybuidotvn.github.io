@@ -16,14 +16,14 @@ Anh/chị có thể chọn ngôn ngữ để hiện thị thông tin bằng Ti�
 
 <hr>
 
-###Requirement
+### Requirement
 The textbook and the supplemental materials posted in the blackboard, complete assignments in time, participate in the classroom exercises and activities, and attend class regularly. 
 
 As I believe that engaging the students in the learning is essential for teaching to be effective, you will spend the majority of class time involved in collaborative activities. You will be involved in class exercises, collaborate with your classmates and your instructor.  As you will want to contribute to these discussions, you will need to come to class prepared to discuss, analyze and evaluate information from your text and other assigned readings.
 
 Request in class: No phone, no internet, no private discussion and attention. 
 
-###Grand Schema and Grand Criteria
+### Grand Schema and Grand Criteria
 <center>
 <table border="5">
 	<tr>
@@ -53,16 +53,21 @@ Request in class: No phone, no internet, no private discussion and attention.
 </table>	
 </center>
 
-###Lectures
+### Design Pattern (Winter - 2018)
+**Slide:** [First sesion][29] [Chapter 1][30] [Chapter 2][31] [Chapter 3][32] [Chapter 4][33] [Chapter 5][34] [Chapter 6][35] [Chapter 7][36] [LTCT][36] 
 
-####Algorithms and Data Structure (Winter - 2014)
+**Useful link:**
+
+<hr>
+
+#### Algorithms and Data Structure (Winter - 2014)
 **Slide:** [First sesion][1] [Chapter 1][2] [Chapter 2][3] [Chapter 3][4] [Chapter 4][5] [Chapter 5][6] [Chapter 6][7] [Chapter 7][8]   
 
 **Useful link:**
 
 <hr>
 
-####Computer Concepts (Spring 2015)
+#### Computer Concepts (Spring 2015)
 **Slide:** [First sesion][9] [Chapter 1][10] [Chapter 2][11] [Chapter 3][12] [Chapter 4][13] [Chapter 5][14]    
 
 **Useful link:** 
@@ -77,7 +82,7 @@ Request in class: No phone, no internet, no private discussion and attention.
 
 <hr>
 
-####Discrete Maths (Summer 2015)
+#### Discrete Maths (Summer 2015)
 
 **Slide:** 
 
@@ -113,6 +118,16 @@ Request in class: No phone, no internet, no private discussion and attention.
  [26]: https://drive.google.com/open?id=0BxBiM0OcuJd_eVpQVmpnd2tzUDQ&authuser=0/
  [27]: https://drive.google.com/open?id=0BxBiM0OcuJd_LXFTYlNsazc1ajQ&authuser=0/
  [28]: https://drive.google.com/open?id=0BxBiM0OcuJd_aVRud196MVRUalk&authuser=0/
- [29]: #
- [30]: #
- [31]: #
+ [29]: https://drive.google.com/open?id=1ua3rznRT3QUQ_IsCbYguIEbatJPPgA_2
+ [30]: https://drive.google.com/open?id=1WSuCNHKet9-icqEJScHIG2WHK01kcJrg
+ [31]: https://drive.google.com/open?id=1OCOqfA5LLGeZ3xhsoqg6gyNw2sCvQZGT
+ [32]: https://drive.google.com/open?id=16McyhqXMfg5OoCiDQDhsTePE3yOjVHyx
+ [33]: https://drive.google.com/open?id=13f35seaO6zRlZSc8B5Gz6qIvCqaA4aBP
+ [34]: https://drive.google.com/open?id=1-d6ucReU7BQAKri5l2IxkC5LeqwyEqwa
+ [35]: https://drive.google.com/open?id=1Ob8htG0OHV3YQjGBGvEr2qUDpWxbj9p2
+ [36]: https://drive.google.com/open?id=1PxPtoL_o2KOs5g9JYKle6cDCJGUDrsAl
+ [37]: https://drive.google.com/open?id=1ESaAW_nG-Dy8XZhvm5g_ijyvUOmX8-gl
+ [38]: #
+ [39]: #
+ [40]: #
+ [41]: #

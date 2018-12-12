@@ -53,34 +53,42 @@ Yêu cầu chung tại lớp: Không điện thoại, không internet, không th
 </table>	
 </center>
 
-###Lectures
+### Design Pattern (Winter - 2018)
+**Slide:** [First sesion][29] [Chapter 1][30] [Chapter 2][31] [Chapter 3][32] [Chapter 4][33] [Chapter 5][34] [Chapter 6][35] [Chapter 7][36] [LTCT][36] 
 
-####Cấu trúc dữ liệu và giải thuật (Học kỳ I - 1415)
-**Bài Giảng:** [Giới thiệu][1] [Chuương 1][2] [Chuương 2][3] [Chuương 3][4] [Chuương 4][5] [Chuương 5][6] [Chuương 6][7] [Chuương 7][8]   
-
-**Trang tham khảo:**
+**Useful link:**
 
 <hr>
 
-####Tin học đại cương (Học kỳ II - 1415)
-**Bài Giảng:** [Giới thiệu][9] [Chuương 1][10] [Chuương 2][11] [Chuương 3][12] [Chuương 4][13] [Chuương 5][14]    
+#### Algorithms and Data Structure (Winter - 2014)
+**Slide:** [First sesion][1] [Chapter 1][2] [Chapter 2][3] [Chapter 3][4] [Chapter 4][5] [Chapter 5][6] [Chapter 6][7] [Chapter 7][8]   
 
-**Trang tham khảo:** 
-
-<hr>
-
-####Cơ sở lập trình (Học kỳ II - 1415)
-**Bài Giảng:** [Giới thiệu][15] [Chương 1][16] [Chương 2][17] [Chương 3][18] [Chương 4][19] [Chương 5][20] [Chương 6][21] [Chương 7][22] [Chương 8][23] [Chương 9][24] [Chương 10][25] [Chương 11][26] [Chương 12][27] [Chương 13][28] 
-
-**Trang tham khảo:**
+**Useful link:**
 
 <hr>
 
-####Toán rời rạc (Học kỳ hè - 1415)
+#### Computer Concepts (Spring 2015)
+**Slide:** [First sesion][9] [Chapter 1][10] [Chapter 2][11] [Chapter 3][12] [Chapter 4][13] [Chapter 5][14]    
 
-**Bài Giảng:** 
+**Useful link:** 
 
-**Trang tham khảo:**
+<hr>
+
+####Basic Programming (Spring 2015)
+
+**Slide:** [First sesion][15] [Chapter 1][16] [Chapter 2][17] [Chapter 3][18] [Chapter 4][19] [Chapter 5][20] [Chapter 6][21] [Chapter 7][22] [Chapter 8][23] [Chapter 9][24] [Chapter 10][25] [Chapter 11][26] [Chapter 12][27] [Chapter 13][28] 
+
+**Useful link:**
+
+<hr>
+
+#### Discrete Maths (Summer 2015)
+
+**Slide:** 
+
+**Useful link:**
+
+<hr>
 
 <hr>
 
@@ -112,6 +120,16 @@ Yêu cầu chung tại lớp: Không điện thoại, không internet, không th
  [26]: https://drive.google.com/open?id=0BxBiM0OcuJd_eVpQVmpnd2tzUDQ&authuser=0/
  [27]: https://drive.google.com/open?id=0BxBiM0OcuJd_LXFTYlNsazc1ajQ&authuser=0/
  [28]: https://drive.google.com/open?id=0BxBiM0OcuJd_aVRud196MVRUalk&authuser=0/
- [29]: #
- [30]: #
- [31]: #
+ [29]: https://drive.google.com/open?id=1ua3rznRT3QUQ_IsCbYguIEbatJPPgA_2
+ [30]: https://drive.google.com/open?id=1WSuCNHKet9-icqEJScHIG2WHK01kcJrg
+ [31]: https://drive.google.com/open?id=1OCOqfA5LLGeZ3xhsoqg6gyNw2sCvQZGT
+ [32]: https://drive.google.com/open?id=16McyhqXMfg5OoCiDQDhsTePE3yOjVHyx
+ [33]: https://drive.google.com/open?id=13f35seaO6zRlZSc8B5Gz6qIvCqaA4aBP
+ [34]: https://drive.google.com/open?id=1-d6ucReU7BQAKri5l2IxkC5LeqwyEqwa
+ [35]: https://drive.google.com/open?id=1Ob8htG0OHV3YQjGBGvEr2qUDpWxbj9p2
+ [36]: https://drive.google.com/open?id=1PxPtoL_o2KOs5g9JYKle6cDCJGUDrsAl
+ [37]: https://drive.google.com/open?id=1ESaAW_nG-Dy8XZhvm5g_ijyvUOmX8-gl
+ [38]: #
+ [39]: #
+ [40]: #
+ [41]: #
