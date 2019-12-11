@@ -10,17 +10,17 @@ header:
    image_fullwidth: "header-homepage1.jpg"
 widget-1:
     title: "About me & Portfolio"
-    url: 'http://duybuivn.github.io/about/'
+    url: 'http://duybuidotvn.github.io/about/'
     text: 'This is a brief introduction <em>about me</em>: <br>1. Who am I? <br>2. My curriculum viate. <br> 3. My research interesting. <br>4. Courses teaching. <br>5. Other: hobbies, volunteer Experiences...etc.'
     image: thumb-portfolio-302x182.jpg
 widget-2:
     title: "Photo's diary"
-    url: 'https://duybuivn.github.io/photo-diary/'
+    url: 'https://duybuidotvn.github.io/photo-diary/'
     text: 'A brief diary by photos of mine. Visited ... '
     image: thumb-diary-302x182.jpg
 widget-3:
     title: "F&Q"
-    url: 'https://github.com/duybuivn/'
+    url: 'https://github.com/duybuidotvn/'
     text: '<em>Jekyll</em> is totally free and licensed under the MIT License. Make it your own and do with it what you want. Grab your copy or clone it at GitHub and start your website with it. Then tell me via Gmail <em>duybui.vn@gmail.com</em>'
     image: thumb-git-302x182.jpg
 ---
